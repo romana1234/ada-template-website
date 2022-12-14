@@ -1,7 +1,6 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
-theme: jekyll-theme-cayman
 title: The role of women in the film industry - what is behind the prejudices?
 description: Analysis of 42000 film movies
 show_downloads: True
