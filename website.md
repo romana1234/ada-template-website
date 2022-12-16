@@ -89,8 +89,39 @@ hello
 pie chart of top 3 genres
 
 ### What has been the evolution of the female share ?
-As seen in the female share averages across the most movie producing-countries and famous genres, the scene is clearly dominated by men. However, the previous analyses give no information about the evolution of the female share. A country, being aware of the inequalities in the movie industry, that decides to make more equal role movies despite it's past.... 
-jklsdhkjdfhfd
+As seen in the female share averages of the most movie producing-countries and famous genres, the scene is clearly dominated by men. However, the previous analyses give no information about the evolution of the female share. A country, being aware of the inequalities in the movie industry, may have actively tried to reduce those inequalities in the past decade. If their film history has a very low female share, those efforts may not be perceptible in the previous analysis. 
+
+In order to identify increasing or decreasing (or neither) trends of the female share, for each country, a linear regression was performed on the time series to obtain the following relation: $Female \quad share \quad = \quad intercept \quad + slope \cdot year$. Analysing the slope of that linear relationship allows us to identify general trends. In order for the analysis to be relevant, only the years with at least 4 movies produced were kept. The countries with slopes having p-values greater than the usual threshold of 0.05 were also discarded. These linear regressions yield the following: (mettre texte à côté du tableau????)(Mettre aussi un histogramme des slopes????)
+
+|           Country          |  Slope  |
+|:--------------------------:|:-------:|
+|         Bangladesh         | -0.0401 |
+|           Mexico           | -0.0039 |
+|           Sweden           | -0.0014 |
+|         Netherlands        | -0.0007 |
+|            India           | -0.0007 |
+|    United Arab Emirates    |  0.0000 |
+|  Kingdom of Great Britain  |  0.0002 |
+|  United States of America  |  0.0002 |
+| German Democratic Republic |  0.0002 |
+|           Nigeria          |  0.0002 |
+|       United Kingdom       |  0.0003 |
+|           Germany          |  0.0006 |
+|           France           |  0.0007 |
+|            Japan           |  0.0010 |
+|           Hungary          |  0.0012 |
+|          Australia         |  0.0014 |
+|           Canada           |  0.0014 |
+|           Brazil           |  0.0014 |
+|            Spain           |  0.0023 |
+|           Poland           |  0.0035 |
+|          Hong Kong         |  0.0059 |
+|           Taiwan           |  0.0078 |
+
+The slope values have been sorted in ascending order. Most of the countries shown in the table above (17 out of 22) have had an overall increase in the female share over these past decades. Although they do no show a strong increase, it is still great to see that for many countries, the presence of women on screen is growing.
+However, India, the Netherlands, Sweden and especially Mexico and Bangladesh tend to have cast less and less women (compared to men) over the years.
+
+Most of these regressions had relatively low $R^2$ values. This was to be expected as there most likely are many confounders and the variation of the female share index cannot be simply explained by the year the movie was released. However, as we are not interested in making precise predictions but rather at identifying the general underlying trend, this simple regression is enough. As it can be seen in the following figures, the regression line approximates well the overall trend
 
 
 
