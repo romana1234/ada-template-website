@@ -64,6 +64,8 @@ In the table below, the top 10 most producing countries and frequently represent
 
 **METTRE LES 3 HISTOGRAMMES** et les commenter
 
+![Dates_hist](/ada-template-website/assets/img/movies_date_hist.png)
+
 ## ROMANA ET MATHIAS
 
 # Quantitative analysis of women's underrepresentation in movies
