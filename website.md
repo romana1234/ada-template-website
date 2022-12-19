@@ -125,8 +125,46 @@ However, India, the Netherlands, Sweden and especially Mexico and Bangladesh ten
 
 Most of these regressions had relatively low $R^2$ values. This was to be expected as there most likely are many confounders and the variation of the female share index cannot be simply explained by the year the movie was released. However, as we are not interested in making precise predictions but rather at identifying the general underlying trend, this simple regression is enough. As it can be seen in the following figures, the regression line approximates well the overall trend
 
+___
 
 
+|         **Genre**         | **Slope** |      **Genre**      | **Slope** |
+|:-------------------------:|:---------:|:-------------------:|:---------:|
+|       Hip hop movies      |  -0.0104  |   Japanese Movies   |   0.0010  |
+|        Crime Drama        |  -0.0014  |        Action       |   0.0011  |
+|          Musical          |  -0.0008  |         Cult        |   0.0011  |
+|         Bollywood         |  -0.0006  |   Science Fiction   |   0.0012  |
+|          War film         |  -0.0005  |   Action/Adventure  |   0.0012  |
+|           Drama           |  -0.0002  |      Animation      |   0.0012  |
+| Juvenile Delinquency Film |   0.0001  |        Comedy       |   0.0013  |
+|        Road-Horror        |   0.0001  |   Film adaptation   |   0.0013  |
+|           Crime           |   0.0001  |        Horror       |   0.0014  |
+| Heaven-Can-Wait Fantasies |   0.0001  |        Indie        |   0.0015  |
+|       Existentialism      |   0.0001  |  Comedy of manners  |   0.0015  |
+|      Ealing Comedies      |   0.0002  |  Children's/Family  |   0.0016  |
+|       Fantasy Drama       |   0.0002  |     Family Film     |   0.0016  |
+|     Backstage Musical     |   0.0002  |    Marriage Drama   |   0.0017  |
+|      Heavenly Comedy      |   0.0002  |      Buddy film     |   0.0017  |
+|    British Empire Film    |   0.0002  |       Disaster      |   0.0021  |
+|         Mumblecore        |   0.0002  |  Political thriller |   0.0022  |
+|   Master Criminal Films   |   0.0002  |         Teen        |   0.0023  |
+|        Feature film       |   0.0002  |   Domestic Comedy   |   0.0024  |
+|         Short Film        |   0.0003  |   Television movie  |   0.0025  |
+|         Adventure         |   0.0003  |      Alien Film     |   0.0025  |
+|   Women in prison films   |   0.0004  |       B-movie       |   0.0025  |
+|       Romantic drama      |   0.0004  |    Ensemble Film    |   0.0028  |
+|          Filipino         |   0.0004  |  Martial Arts Film  |   0.0028  |
+|         Pinku eiga        |   0.0005  |    Sci-Fi Horror    |   0.0029  |
+|       Crime Thriller      |   0.0005  | Revisionist Western |   0.0031  |
+|          Thriller         |   0.0006  |  Children's Fantasy |   0.0032  |
+|        World cinema       |   0.0007  |      Children's     |   0.0035  |
+|      Romantic comedy      |   0.0007  |    Chinese Movies   |   0.0037  |
+|         Melodrama         |   0.0007  |    Action Comedy    |   0.0054  |
+|           Biopic          |   0.0008  |        Anime        |   0.0055  |
+|           Parody          |   0.0008  |     Mockumentary    |   0.0066  |
+|          Mystery          |   0.0008  |     Holiday Film    |   0.0208  |
+|         Slapstick         |   0.0008  |    Blaxploitation   |   0.0248  |
+|          Suspense         |   0.0009  | Glamorized Spy Film |   0.0917  |
 
 
 
