@@ -166,7 +166,7 @@ Another interesting observation that can be pointed out is that all genres for c
 
 **plot regression [Children's, Children's Fantasy and Children's/Family]**
 
-This result is rather encouraging.
+This result is rather encouraging as the assimilation of stereotypes, such as "women are weak and men are strong" that are often portrayed in movies, begin at a very young age. Childhood is a particularly sensitive time in gender identity development (REFERENCE!!! https://link.springer.com/article/10.1007/s11199-020-01127-z). If children grow up watching movies with strong female protagonists, they are most likely to have reduced gender-based stereotypes. These
 
 
 
