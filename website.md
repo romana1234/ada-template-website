@@ -177,15 +177,25 @@ Many confounders could potentially affect the number of women in movies. As an e
 
 From the plot above it seems that men and women with similar careers do play, on average, in the same amount of movies. A simple t-test allows to verify that observation. The t-test between the two averages gives a p-values = 0.96 which clearly shows that the null hypothesis (the two samples have identical averages) cannot be rejected.
 
+
+### What are the predictors of the female share in a movie?
+
+Through this analysis, we will try and identify what predictors in a movie would lead to a higher female share. We will use all of the information given for each movies: year when the movie was released, runtime, boxoffice and genre (only the top 10 genres were used). As most of the movies produced come from the USA, the analysis will only be carried out on movies made in the United States. After creating dummy variables for the 10 genres (categorical data), each predictors were standardized using z-scores in order to have comparable units. The results of the linear regression is summarized in the following table:
+
+**Mettre tableau du summary de la linear regression**
+
+The low $R^2 \approx 0.1$ values suggests that the predictors used do not explain all of the variance. Even though that number is reltively low, the p-values of our parameters are almost all significant (<0.05, despite the intercept and 'World cinema' genre), suggesting that they are significant for the assessment of the female share. In order to have a better visulization of the relative impact of each predictor on the female share, let's take a look at the following figure:
+
+**plot de linear regression **
+
+
+
+
+
+
 --
 mettre fans conclusion partie 1
 The information given from this observational study suggests that men and women with similar careers, play in the same number of movies. However, the analyses performed in this section does not give information about the type of roles the actors/actresses played (main or secondary roles). It is possible that in a movie with the same number of women and men cast, actors play dignifying roles whereas women play secondary, more demeaning roles. 
 --
-
-
-### Based on the information from our dataset, what are the predictors of the female share in a movie?
-
-
-
 
 
