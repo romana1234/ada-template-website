@@ -40,9 +40,9 @@ adjectives, nouns -> wordcloud? or list?
 (consider adjectives and nouns associated to a character)
 
 Definition of three time periods (P):
-* P1:         movie release year < 1980
-* P2: 1980 <= movie release year < 2000
-* P3: 2000 <  movie release year
+* P1:         movie release year < 1950
+* P2: 1950 <= movie release year < 1980
+* P3: 1980 <  movie release year
 
 Correlation matrix
 ![corr_periods_gender](https://user-images.githubusercontent.com/114232327/208413826-f2095211-1e3c-47b0-bc47-bbb41b0b3912.png)
