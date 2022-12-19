@@ -22,7 +22,7 @@ The data from which our analysis will be based consists of 42'306 movie plot sum
 
 ## Who produces the movies and what are the most recurrent genres ?
 
-In the table below, the top 10 most producing countries and frequently represented genres are displayed. In all of the movie dataset, almost 50% of all films have been produced in the USA or India (out of 147 countries). The genres are more equally distributed.
+In the table below, the top 10 most producing countries and frequently represented genres are displayed. In all of the movie dataset, almost 50% of all films have been produced in the USA or India (out of 147 countries). The genres are more equally distributed. (FAIRE DES PIECHARTS???????)
 
 
 <table>
@@ -123,54 +123,42 @@ In order to identify increasing or decreasing (or neither) trends of the female 
 The slope values have been sorted in ascending order. Most of the countries shown in the table above (17 out of 22) have had an overall increase in the female share over these past decades. Although they do no show a strong increase, it is still great to see that for many countries, the presence of women on screen is growing.
 However, India, the Netherlands, Sweden and especially Mexico and Bangladesh tend to have cast less and less women (compared to men) over the years.
 
-Most of these regressions had relatively low $R^2$ values. This was to be expected as there most likely are many confounders and the variation of the female share index cannot be simply explained by the year the movie was released. However, as we are not interested in making precise predictions but rather at identifying the general underlying trend, this simple regression is enough. As it can be seen in the following figures, the regression line approximates well the overall trend
+Most of these regressions had relatively low $R^2$ values. This was to be expected as there most likely are many confounders and the variation of the female share index cannot be simply explained by the year the movie was released. However, as we are not interested in making precise predictions but rather at identifying the general underlying trend, this simple regression is enough. As it can be seen in the following figures, the regression line approximates well the overall trend. The countries that were plotted are the USA and India as they are the most predominant film producers. In order to have a better vizualisation of the 'extreme' slopes, we also decided to plot Taiwan (high increase) and Mexico (high decrease).
 
-___
-
-
-|         **Genre**         | **Slope** |      **Genre**      | **Slope** |
-|:-------------------------:|:---------:|:-------------------:|:---------:|
-|       Hip hop movies      |  -0.0104  |   Japanese Movies   |   0.0010  |
-|        Crime Drama        |  -0.0014  |        Action       |   0.0011  |
-|          Musical          |  -0.0008  |         Cult        |   0.0011  |
-|         Bollywood         |  -0.0006  |   Science Fiction   |   0.0012  |
-|          War film         |  -0.0005  |   Action/Adventure  |   0.0012  |
-|           Drama           |  -0.0002  |      Animation      |   0.0012  |
-| Juvenile Delinquency Film |   0.0001  |        Comedy       |   0.0013  |
-|        Road-Horror        |   0.0001  |   Film adaptation   |   0.0013  |
-|           Crime           |   0.0001  |        Horror       |   0.0014  |
-| Heaven-Can-Wait Fantasies |   0.0001  |        Indie        |   0.0015  |
-|       Existentialism      |   0.0001  |  Comedy of manners  |   0.0015  |
-|      Ealing Comedies      |   0.0002  |  Children's/Family  |   0.0016  |
-|       Fantasy Drama       |   0.0002  |     Family Film     |   0.0016  |
-|     Backstage Musical     |   0.0002  |    Marriage Drama   |   0.0017  |
-|      Heavenly Comedy      |   0.0002  |      Buddy film     |   0.0017  |
-|    British Empire Film    |   0.0002  |       Disaster      |   0.0021  |
-|         Mumblecore        |   0.0002  |  Political thriller |   0.0022  |
-|   Master Criminal Films   |   0.0002  |         Teen        |   0.0023  |
-|        Feature film       |   0.0002  |   Domestic Comedy   |   0.0024  |
-|         Short Film        |   0.0003  |   Television movie  |   0.0025  |
-|         Adventure         |   0.0003  |      Alien Film     |   0.0025  |
-|   Women in prison films   |   0.0004  |       B-movie       |   0.0025  |
-|       Romantic drama      |   0.0004  |    Ensemble Film    |   0.0028  |
-|          Filipino         |   0.0004  |  Martial Arts Film  |   0.0028  |
-|         Pinku eiga        |   0.0005  |    Sci-Fi Horror    |   0.0029  |
-|       Crime Thriller      |   0.0005  | Revisionist Western |   0.0031  |
-|          Thriller         |   0.0006  |  Children's Fantasy |   0.0032  |
-|        World cinema       |   0.0007  |      Children's     |   0.0035  |
-|      Romantic comedy      |   0.0007  |    Chinese Movies   |   0.0037  |
-|         Melodrama         |   0.0007  |    Action Comedy    |   0.0054  |
-|           Biopic          |   0.0008  |        Anime        |   0.0055  |
-|           Parody          |   0.0008  |     Mockumentary    |   0.0066  |
-|          Mystery          |   0.0008  |     Holiday Film    |   0.0208  |
-|         Slapstick         |   0.0008  |    Blaxploitation   |   0.0248  |
-|          Suspense         |   0.0009  | Glamorized Spy Film |   0.0917  |
+**PLOTS REGRESSIONS [USA, India, Taiwan, Mexico]**
 
 
+The same analysis was performed for the movie genres. The regressions yield the following:
 
 
+|         **Genre**         | **Slope** |     **Genre**     | **Slope** |      **Genre**      | **Slope** |
+|:-------------------------:|:---------:|:-----------------:|:---------:|:-------------------:|:---------:|
+|       Hip hop movies      |  -0.0104  |      Filipino     |   0.0004  |  Children's/Family  |   0.0016  |
+|        Crime Drama        |  -0.0014  |     Pinku eiga    |   0.0005  |     Family Film     |   0.0016  |
+|          Musical          |  -0.0008  |   Crime Thriller  |   0.0005  |    Marriage Drama   |   0.0017  |
+|         Bollywood         |  -0.0006  |      Thriller     |   0.0006  |      Buddy film     |   0.0017  |
+|          War film         |  -0.0005  |    World cinema   |   0.0007  |       Disaster      |   0.0021  |
+|           Drama           |  -0.0002  |  Romantic comedy  |   0.0007  |  Political thriller |   0.0022  |
+| Juvenile Delinquency Film |   0.0001  |     Melodrama     |   0.0007  |         Teen        |   0.0023  |
+|        Road-Horror        |   0.0001  |       Biopic      |   0.0008  |   Domestic Comedy   |   0.0024  |
+|           Crime           |   0.0001  |       Parody      |   0.0008  |   Television movie  |   0.0025  |
+| Heaven-Can-Wait Fantasies |   0.0001  |      Mystery      |   0.0008  |      Alien Film     |   0.0025  |
+|       Existentialism      |   0.0001  |     Slapstick     |   0.0008  |       B-movie       |   0.0025  |
+|      Ealing Comedies      |   0.0002  |      Suspense     |   0.0009  |    Ensemble Film    |   0.0028  |
+|       Fantasy Drama       |   0.0002  |  Japanese Movies  |   0.0010  |  Martial Arts Film  |   0.0028  |
+|     Backstage Musical     |   0.0002  |       Action      |   0.0011  |    Sci-Fi Horror    |   0.0029  |
+|      Heavenly Comedy      |   0.0002  |        Cult       |   0.0011  | Revisionist Western |   0.0031  |
+|    British Empire Film    |   0.0002  |  Science Fiction  |   0.0012  |  Children's Fantasy |   0.0032  |
+|         Mumblecore        |   0.0002  |  Action/Adventure |   0.0012  |      Children's     |   0.0035  |
+|   Master Criminal Films   |   0.0002  |     Animation     |   0.0012  |    Chinese Movies   |   0.0037  |
+|        Feature film       |   0.0002  |       Comedy      |   0.0013  |    Action Comedy    |   0.0054  |
+|         Short Film        |   0.0003  |  Film adaptation  |   0.0013  |        Anime        |   0.0055  |
+|         Adventure         |   0.0003  |       Horror      |   0.0014  |     Mockumentary    |   0.0066  |
+|   Women in prison films   |   0.0004  |       Indie       |   0.0015  |     Holiday Film    |   0.0208  |
+|       Romantic drama      |   0.0004  | Comedy of manners |   0.0015  |    Blaxploitation   |   0.0248  |
+|                           |           |                   |           | Glamorized Spy Film |   0.0917  |
 
-
+Similarly to the countries, most of the movie genres show an increasing trend of the female share. However, as fit was also the case for most countries, the increase is very dull. The $R^2$ values were also generally small for the same reasons as stated above.
 
 
 
