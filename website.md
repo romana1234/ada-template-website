@@ -171,7 +171,20 @@ This result is rather encouraging as the assimilation of stereotypes, such as "w
 
 ### Observational study: for similar careers, do actors participate in more movies than actresses?
 
-Many confounders could potentially affect the number of women in movies. As an example, a man screenwriter is more likely to write a script with a more men-dominated point of view and hence cast more men as if the script was written by a woman. In order to try and mitigate the effect of confounders, a 1-on-1 matching observational study was performed based on these matching criterias: year of the actor's first movie, age of the actor for its first movie, age of the actor for its last movie, career length and ethnicity of the actor.
+Many confounders could potentially affect the number of women in movies. As an example, a man screenwriter is more likely to write a script with a more men-dominated point of view and hence cast more men as if the script was written by a woman. In order to try and mitigate the effect of confounders, a 1-on-1 matching observational study was performed based on these matching criteria: year of the actor's first movie, age of the actor for its first movie, age of the actor for its last movie, career length and ethnicity of the actor. Based on these criteria, an actor and an actress were matched and the number of movies they participated in were compared. As the distribution of the number of movies is heavy tailed, the natural logarithm of the movie count was used. It yileds the following result:
+
+**barplot observational study**
+
+From the plot above it seems that men and women with similar careers do play, on average, in the same amount of movies. A simple t-test allows to verify that observation. The t-test between the two averages gives a p-values = 0.96 which clearly shows that the null hypothesis (the two samples have identical averages) cannot be rejected.
+
+--
+mettre fans conclusion partie 1
+The information given from this observational study suggests that men and women with similar careers, play in the same number of movies. However, the analyses performed in this section does not give information about the type of roles the actors/actresses played (main or secondary roles). It is possible that in a movie with the same number of women and men cast, actors play dignifying roles whereas women play secondary, more demeaning roles. 
+--
+
+
+### Based on the information from our dataset, what are the predictors of the female share in a movie?
+
 
 
 
