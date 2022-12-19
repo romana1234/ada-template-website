@@ -158,7 +158,19 @@ The same analysis was performed for the movie genres. The regressions yield the 
 |       Romantic drama      |   0.0004  | Comedy of manners |   0.0015  |    Blaxploitation   |   0.0248  |
 |                           |           |                   |           | Glamorized Spy Film |   0.0917  |
 
-Similarly to the countries, most of the movie genres show an increasing trend of the female share. However, as fit was also the case for most countries, the increase is very dull. The $R^2$ values were also generally small for the same reasons as stated above.
+Similarly to the countries, most of the movie genres show an increasing trend of the female share. However, as fit was also the case for most countries, the increase is very dull. The $R^2$ values were also generally small for the same reasons as stated above. The genres that were plotted were again frequent movie-genres (Action, Thriller):
+
+**plot regression [Action, Thriller]**
+
+Another interesting observation that can be pointed out is that all genres for children (Children's, Children's Fantasy and Children's/Family) has seen a steady increase of the female share: 
+
+**plot regression [Children's, Children's Fantasy and Children's/Family]**
+
+This result is rather encouraging.
+
+
+
+
 
 
 
