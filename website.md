@@ -166,13 +166,12 @@ Another interesting observation that can be pointed out is that all genres for c
 
 **plot regression [Children's, Children's Fantasy and Children's/Family]**
 
-This result is rather encouraging as the assimilation of stereotypes, such as "women are weak and men are strong" that are often portrayed in movies, begin at a very young age. Childhood is a particularly sensitive time in gender identity development (REFERENCE!!! https://link.springer.com/article/10.1007/s11199-020-01127-z). If children grow up watching movies with strong female protagonists, they are most likely to have reduced gender-based stereotypes.
+This result is rather encouraging as the assimilation of stereotypes, such as "women are weak and men are strong" that are often portrayed in movies, begin at a very young age. Childhood is a particularly sensitive time in gender identity development. If children grow up watching movies with strong female protagonists, they are most likely to have reduced gender-based stereotypes. (REFERENCE!!! https://link.springer.com/article/10.1007/s11199-020-01127-z)
 
 
 ### Observational study: for similar careers, do actors participate in more movies than actresses?
 
-
-
+Many confounders could potentially affect the number of women in movies. As an example, a man screenwriter is more likely to write a script with a more men-dominated point of view and hence cast more men as if the script was written by a woman. In order to try and mitigate the effect of confounders, a 1-on-1 matching observational study was performed based on these matching criterias: year of the actor's first movie, age of the actor for its first movie, age of the actor for its last movie, career length and ethnicity of the actor.
 
 
 
