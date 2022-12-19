@@ -13,9 +13,7 @@ of which 69 refering to a female actor, and 431 to a male actor
 
 10 most prevalent character types:
 
-| tv trope                        | number of  |
-|                                 | occurrences|
-|                                 | in movies  |
+| tv trope                        | # of movies|
 |:--------------------------------|:-----------|
 | crazy jealous guy               |     25     |
 | corrupt corporate executive     |     23     |
@@ -49,6 +47,8 @@ Definition of three time periods (P):
 Correlation matrix
 
 ![corr_periods_gender](https://user-images.githubusercontent.com/114232327/208409108-e69f064b-ec2b-4885-a331-292774d7dd98.png)
+
+Very high correlation among the three periods of the same gender. Lower correlation between men and women. Highest correlation between P2 and P3 of the same gender (for both men and women).
 
 ### Principle component analysis (PCA)
 
