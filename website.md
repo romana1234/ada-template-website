@@ -4,7 +4,7 @@ layout: default
 
 # test image
 
-![alt text for image](../assests/img/Introduction.png)
+![alt text for image](../assets/img/movie_dates_hist.png)
 
 # Why is it important ?
 
