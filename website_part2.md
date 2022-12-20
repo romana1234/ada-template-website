@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Part 2: Stereotypes and representation of different genders in the film industry
-How are female and male characters represented in movies? ...
+This part focuses on how female and male characters are represented in movies. Typical stereotypes are identified and analyses are performed, if they are really reflected in the movies. Furthermore, the evolution of the representation in time is examined. 
 
 
 ## Stereotypes of characters in movies by gender
@@ -32,13 +32,15 @@ Image with words from tv tropes by gender
 ![tvtropes_wordcloud](https://user-images.githubusercontent.com/114232327/208700236-9934b814-e310-44bc-9c21-f3f5868def30.png)
 
 
-The most used words characterizing a female and a male character respectively depict pretty much the stereotypes: The beautiful, blonde and dumb girl whereas male characters are represented as corrupt, hero, badass, among other. Moreover, the most used noun for women is "girl", whereas "guy" is mostely used to represent a man....
+The most used words in these tv tropes for characterizing a female and a male character respectively depict pretty much the stereotypes: The beautiful, blonde and dumb girl, whereas male characters are represented among other as corrupt, a badass, a hero. Moreover, the most used noun for women is "girl", while "guy" is mostely used to represent a man.
 
 ## Words used to describe male and female characters
-adjectives, nouns -> wordcloud? or list?
+Two versions -> I don't know which one is better...
 
+For every part of speech (adj, vb, nn), the 5 empath categories are selected with the largest difference for men and women.
 ![JJ_NN_VB_cat_diff](https://user-images.githubusercontent.com/114232327/208700451-e087f8ed-c867-43a4-a19d-70cedbd76b84.png)
 
+Version 2: 4 fixed empath categories are selected and we look at their values for every part of speech.
 ![JJ_NN_VB_cat_fix](https://user-images.githubusercontent.com/114232327/208700473-ef5d540a-817c-4d9f-a301-bcde2c4c307d.png)
 
 
@@ -60,8 +62,10 @@ Very high correlation among the three periods of the same gender. Lower correlat
 
 ### Principle component analysis (PCA)
 
-
 ![PCA](https://user-images.githubusercontent.com/114232327/208701868-6bbcbefa-504b-47ad-a21c-536df850fe5c.png)
+
+PC I separates men and women: tendency to approach each other (men more than women)
+PC II: reflects differences in time periods -> same pattern observed for men and women
 
 
 ### Evolution of some empath categories over time
