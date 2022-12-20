@@ -6,11 +6,11 @@ title: The role of women in the film industry - what is behind the prejudices?
 description: We shed light on the truth about gender equity in the film industry by analysing over 42000 movies
 show_downloads: True
 navigation:
-  - title: Home
-    url: /
-  - title: Role of women in film industry
+  - title: Introduction and preliminary analyses
+    url: Intro
+  - title: Part 1 - Quantitative analysis
     url: website
-  - title: Example
-    url: example
   - title: Part 2 - Semantic analysis
     url: website_part2
+  - title: Example
+    url: example
