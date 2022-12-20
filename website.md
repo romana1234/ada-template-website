@@ -8,7 +8,7 @@ layout: default
 
 # Why is it important ?
 
-In recent years, the US movie industry has often been criticised in the media for its lack of female representation. As a simple and quick example: type 'most famous wizardess' in a Google research bar. Google automatically suggests 'most famous wizard' and not wizardess. By clicking on the first link provided (https://faceoffdb.com/lists/powerful-wizards-and-witches/), a ranking of the top 45 most famous wizards/wizardesses is given with only **one** woman in the top 10. In the Wikipedia "Bechdel test" page (a measure of the representation of women in film) (METTRe URL OU ON PEUT CLIQUER DESSUS????), the following graph was produced based on four different studies:
+In recent years, the US movie industry has often been criticised in the media for its lack of female representation. As a simple and quick example: type 'most famous wizardess' in a Google research bar. Google automatically suggests 'most famous wizard' and not wizardess. By clicking on the [first link provided](https://faceoffdb.com/lists/powerful-wizards-and-witches/), a ranking of the top 45 most famous wizards/wizardesses is given with only **one** woman in the top 10. In the [Wikipedia "Bechdel test" page (a measure of the representation of women in film)](https://en.wikipedia.org/wiki/Bechdel_test#:~:text=The%20Bechdel%20test%20%28%2F%20%CB%88b%C9%9Bkd%C9%99l%20%2F%20BEK-d%C9%99l%29%20is,each%20other%20about%20something%20other%20than%20a%20man.), the following graph was produced based on four different studies:
 
 **METTRE IMAGE "WIKI_"**
 
@@ -68,7 +68,7 @@ In the table below, the top 10 most producing countries and frequently represent
 
 **METTRE LES 3 HISTOGRAMMES** et les commenter
 
-![Dates_hist](ada-template-website/assets/img/movie_dates_hist.png)
+![Dates_hist](https://github.com/romana1234/ada-template-website/tree/master/assets/img)
 
 ## ROMANA ET MATHIAS
 
