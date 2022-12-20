@@ -3,7 +3,7 @@ plugins:
 - jekyll-remote-theme
 theme: jekyll-theme-cayman
 title: The role of women in the film industry - what is behind the prejudices?
-description: Analysis of 42000 film movies
+description: We shed light on the truth about gender equity in the film industry by analysing over 42000 movies
 show_downloads: True
 navigation:
   - title: Home
@@ -12,5 +12,5 @@ navigation:
     url: website
   - title: Example
     url: example
-  - title: Part 2
+  - title: Part 2 - Semantic analysis
     url: website_part2
