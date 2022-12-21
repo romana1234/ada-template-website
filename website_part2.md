@@ -66,8 +66,8 @@ Very high correlation among the three periods of the same gender. Lower correlat
 
 ![PCA](https://user-images.githubusercontent.com/114232327/208701868-6bbcbefa-504b-47ad-a21c-536df850fe5c.png)
 
-PC I separates men and women: tendency to approach each other (men more than women)
-PC II: reflects differences in time periods -> same pattern observed for men and women
+The PCA allows the discimination of the data based on two principles components. PC I separates men and women. PC II: reflects differences in time periods. Overall there seems to be a tendency, especially on men side, of regroupement indicating less differences nowaday between the lexicon used to describe each characters actions. The PC explained variance ratio sum equal 92.5 %, which is considered as satifactory.
+
 
 
 ### Evolution of some empath categories over time
