@@ -56,7 +56,7 @@ Definition of three time periods (P):
 
 Correlation matrix
 <p align="center">
-  <img width="640" height="500" src="https://user-images.githubusercontent.com/114232327/208702863-5bea998b-accb-4f68-bd17-9d59bf2a5b47.png")
+  ![corr_periods_gender](https://user-images.githubusercontent.com/114232327/209010234-a1d60ec9-0254-4696-90c7-042561da8cee.png)
 </p>
 
 
@@ -65,7 +65,7 @@ Very high correlation among the three periods of the same gender. Lower correlat
 ### Principle component analysis (PCA)
 
 <p align="center">
-  <img width="600" height="600" src="https://user-images.githubusercontent.com/114232327/209008105-668da0ea-2d02-4bc4-8c59-7654eb421d0d.png")
+  <img src="https://user-images.githubusercontent.com/114232327/209008105-668da0ea-2d02-4bc4-8c59-7654eb421d0d.png")
 </p>
   
 The PCA allows the discimination of the data based on two principles components. PC I separates men and women. PC II: reflects differences in time periods. Overall there seems to be a tendency, especially on men side, of regroupement indicating less differences nowaday between the lexicon used to describe each characters actions. This is only an hypothesis, PCA is not a suitable method to confirm this. The PC explained variance ratio sum equal 92.5 %, which is considered as satisfactory.
