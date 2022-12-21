@@ -74,6 +74,11 @@ The PCA allows the discimination of the data based on two principles components.
 
 ![evolution_categories](https://user-images.githubusercontent.com/114232327/208702776-a7bb9f11-504e-4eea-a1ad-412ad2ea5328.png)
 
+Digging into specific categories of words evolution allow further investigations and analyses. Love category is mainly assigned to female, but this tendency is reducing since 1950. Crime is always more associated
+to men. Domestic work which is still mainly attributed to women characters have some rises in men lexicon too. Power and heroic shows same chronological trends for both gender, even if they are still mainly 
+associated to men. Social media and science have also similar trends with first a cross over between the two first period and then a high rises for the last period. Finally, politics is less present in film summaries
+than before, but the female share of this topic is disappearing. 
+
 ### Limitations of the analysis on lexicons from film summaries:
 
 As the lexicons are based on sentences where a character appears and do not consider how the character is implied, there are some biases. Also, the lexicons are not representatives of the subjectivity involved
