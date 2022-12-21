@@ -74,4 +74,10 @@ The PCA allows the discimination of the data based on two principles components.
 
 ![evolution_categories](https://user-images.githubusercontent.com/114232327/208702776-a7bb9f11-504e-4eea-a1ad-412ad2ea5328.png)
 
+### Limitations of the analysis on lexicons from film summaries:
+
+As the lexicons are based on sentences where a character appears and do not consider how the character is implied, there are some biases. Also, the lexicons are not representatives of the subjectivity involved
+in the sentences. For example, a sentence where the word "tortured" is implied could be of different meaning. Having tortured sentiments or beeing tortured is absolutely not the same. Indeed the categorisation 
+done with empath would lead to the same category attribution for both meaning.
+
 
