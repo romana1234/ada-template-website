@@ -55,18 +55,17 @@ Definition of three time periods (P):
 * P3: 1980 <  movie release year
 
 Correlation matrix
-<p align="center">
-  ![corr_periods_gender](https://user-images.githubusercontent.com/114232327/209010234-a1d60ec9-0254-4696-90c7-042561da8cee.png)
-</p>
+
+![corr_periods_gender](https://user-images.githubusercontent.com/114232327/209010234-a1d60ec9-0254-4696-90c7-042561da8cee.png)
+
 
 
 Very high correlation among the three periods of the same gender. Lower correlation between men and women. Highest correlation between P2 and P3 of the same gender (for both men and women).
 
 ### Principle component analysis (PCA)
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/114232327/209008105-668da0ea-2d02-4bc4-8c59-7654eb421d0d.png")
-</p>
+![PCA](https://user-images.githubusercontent.com/114232327/209010620-b254b5d5-e00b-45dd-97d9-4e61945340aa.png)
+
   
 The PCA allows the discimination of the data based on two principles components. PC I separates men and women. PC II: reflects differences in time periods. Overall there seems to be a tendency, especially on men side, of regroupement indicating less differences nowaday between the lexicon used to describe each characters actions. This is only an hypothesis, PCA is not a suitable method to confirm this. The PC explained variance ratio sum equal 92.5 %, which is considered as satisfactory.
 
@@ -74,9 +73,8 @@ The PCA allows the discimination of the data based on two principles components.
 
 ### Evolution of some empath categories over time
 
-<p align="center">
-  <img width="800" height="800" src="https://user-images.githubusercontent.com/114232327/209007832-dd730bdf-9bee-420a-a5f5-2a2d672ca183.png")
-</p>
+![evolution_categories](https://user-images.githubusercontent.com/114232327/209010664-a3564c56-3e8b-4328-9cd7-80b564038725.png)
+
   
 Digging into specific categories of words evolution allow further investigations and analyses. Love category is mainly assigned to female, but this tendency is reducing since 1950. Crime is always more associated
 to men. Domestic work which is still mainly attributed to women characters have some rises in men lexicon too. Power and heroic shows same chronological trends for both gender, even if they are still mainly 
