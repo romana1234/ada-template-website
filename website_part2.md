@@ -5,6 +5,8 @@ layout: default
 # Part 2: Stereotypes and representation of different genders in the film industry
 This part focuses on how female and male characters are represented in movies. Typical stereotypes are identified and analyses are performed, if they are really reflected in the movies. Furthermore, the evolution of the representation in time is examined. 
 
+For the stereotypes, already processed data are examined. For the rest, the lexicons describing the genders is obtained through the summaries. Each character of a certain movie is attributed the words in the sentences he appears in. The characters are assigned the gender of the 
+actor playing it, then the data are aggregated by the gender.
 
 ## Stereotypes of characters in movies by gender
 72 character types drawn from tvtropes.com, along with 500 instances of those types
