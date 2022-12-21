@@ -21,7 +21,7 @@ same as above
 ### What has been the evolution of the female share ?
 As seen in the female share averages of the most movie producing-countries and famous genres, the scene is clearly dominated by men. However, the previous analyses give no information about the evolution of the female share. A country, being aware of the inequalities in the movie industry, may have actively tried to reduce those inequalities in the past decade. If their film history has a very low female share, those efforts may not be perceptible in the previous analysis. 
 
-In order to identify increasing or decreasing (or neither) trends of the female share, for each country, a linear regression was performed on the time series to obtain the following relation: $Female \quad share \quad = \quad intercept \quad + slope \cdot year$. Analysing the slope of that linear relationship allows us to identify general trends. In order for the analysis to be relevant, only the years with at least 4 movies produced were kept. The countries with slopes having p-values greater than the usual threshold of 0.05 were also discarded. These linear regressions yield the following: (mettre texte à côté du tableau????)(Mettre aussi un histogramme des slopes????)
+In order to identify increasing or decreasing (or neither) trends of the female share, for each country, a linear regression was performed on the time series to obtain the following relation: $Female \quad share \quad = \quad intercept \quad + slope \cdot year$. Analysing the slope of that linear relationship allows us to identify general trends. In order for the analysis to be relevant, only the years with at least 4 movies produced were kept. The countries with slopes having p-values greater than the usual threshold of 0.05 were also discarded. These linear regressions yield the following: (mettre texte à côté du tableau????)(Mettre aussi un histogramme des slopes????)TROUVER COMMENT ECRIRE A COTE
 
 |           Country          |  Slope  |
 |:--------------------------:|:-------:|
@@ -56,7 +56,7 @@ Most of these regressions had relatively low $R^2$ values. This was to be expect
 **PLOTS REGRESSIONS [USA, India, Taiwan, Mexico]**
 
 
-The same analysis was performed for the movie genres. The regressions yield the following:
+The same analysis was performed for the movie genres. The regressions yield the following: (FAIRE BOXPLOT + QUELQUES PAYS (les 5 en dessous plus d'autres intéressant))
 
 
 |         **Genre**         | **Slope** |     **Genre**     | **Slope** |      **Genre**      | **Slope** |
