@@ -13,12 +13,10 @@ Using a ratio rather than absolute values makes the analysis robust to the incre
 number-FS_evolution.png
 
 ### Is the situation the same for every country ?
-piechart of top 3 countries
-hello
+Barplot with 3 most producing countries + 3 countries with highest FS + 3 countries with lowest female share
 
 ### And for every genre ? 
-
-pie chart of top 3 genres
+same as above
 
 ### What has been the evolution of the female share ?
 As seen in the female share averages of the most movie producing-countries and famous genres, the scene is clearly dominated by men. However, the previous analyses give no information about the evolution of the female share. A country, being aware of the inequalities in the movie industry, may have actively tried to reduce those inequalities in the past decade. If their film history has a very low female share, those efforts may not be perceptible in the previous analysis. 
