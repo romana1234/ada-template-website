@@ -4,16 +4,15 @@
 
 # Why is it important ?
 
-In recent years, the US movie industry has often been criticised in the media for its lack of female representation. As a simple and quick example: type 'most famous wizardess' in a Google research bar. Google automatically suggests 'most famous wizard' and not wizardess. By clicking on the [first link provided](https://faceoffdb.com/lists/powerful-wizards-and-witches/), a ranking of the top 45 most famous wizards/wizardesses is given with only **one** woman in the top 10. In the [Wikipedia "Bechdel test" page](https://en.wikipedia.org/wiki/Bechdel_test#:~:text=The%20Bechdel%20test%20%28%2F%20%CB%88b%C9%9Bkd%C9%99l%20%2F%20BEK-d%C9%99l%29%20is,each%20other%20about%20something%20other%20than%20a%20man.) (a measure of the representation of women in film), the following graph was produced based on four different studies:
+In recent years, the US movie industry has often been criticised in the media for its lack of female representation. As a simple and quick example: type 'most famous fictional adventurers' in a Google research bar. By clicking on the [first link provided](https://www.india.com/travel/articles/10-greatest-fictional-travelers-of-all-time-3236075/), a ranking of the top ten most famous fictional travelers of all time is shown, with only **one** being a woman. To extend these example, if you type most famous fictional characters, the first link [first link provided](https://fictionhorizon.com/most-iconic-fictional-characters/#:~:text=120%20Most%20Iconic%20Fictional%20Characters%20of%20All%20Time,Batman%20...%208%20Dorothy%20Gale%20...%20%C3%89l%C3%A9ments%20suppl%C3%A9mentaires) gives more than 120 characters, with only very few being female characters. In the [Wikipedia "Bechdel test" page](https://en.wikipedia.org/wiki/Bechdel_test#:~:text=The%20Bechdel%20test%20%28%2F%20%CB%88b%C9%9Bkd%C9%99l%20%2F%20BEK-d%C9%99l%29%20is,each%20other%20about%20something%20other%20than%20a%20man.) (a measure of the representation of women in film), the following graph was produced based on four different studies:
 
-**METTRE IMAGE "WIKI_"**
+<img src="https://user-images.githubusercontent.com/100930184/209116724-4b221f87-53b8-49ae-b0d8-20f0f6fc92cc.png" width="700" />
 
 This result clearly shows that the film industry is men dominated. But why is that such an issue one might ask (hopefully not...)? This lack of women representations has a large impact on our society, reinforcing the gender inequality of men doing great things (superhero, pilot, intelligent detective, scientist), and women being of secondary importance. As stated by (Bazzini et al., 1997): "Popular media images are reflections of a culture's attitudes, beliefs, and standards, as well as projections of desired realities [...] To the extent that consumers digest such material as truth, rather than fiction, the depictions laid forth by the media can be influential in the propagation and maintenance of stereotypes". In other words, what we see in movies is, to some extent, mirrored in real life.
 
 Through this project, the gender inequalities will be assessed in a quantitative and qualitative way.
 
-PS: We want to make sure that we accept all different types of gender, and everyone should be able to live out the one they feel they belong to. However, since the only information we received in the data was whether the character was male or female, and those are the most common genders, we only examine those two genders.
--> I don't know if we want to write something like this??
+**Note**: We want to make sure that we accept all different types of gender, and everyone should be able to live out the one they feel they belong to. However, since the only information we received in the data was whether the character was male or female, and those are the most common genders, we only examine those two genders.
 
 
 # General overview of the data
@@ -24,8 +23,7 @@ The data from which our analysis will be based consists of 42'306 movie plot sum
 
 ## Who produces the movies and what are the most recurrent genres ?
 
-In the table below, the top 10 most producing countries and frequently represented genres are displayed. In all of the movie dataset, almost 50% of all films have been produced in the USA or India (out of 147 countries). The genres are more equally distributed. (FAIRE DES PIECHARTS???????)
-
+In the table below, the top 10 most producing countries and frequently represented genres are displayed. In all of the movie dataset, almost 50% of all films have been produced in the USA or India (out of 147 countries). The genres are more equally distributed. 
 
 <table>
 <tr><th>Countries </th><th>Genres</th></tr>
@@ -64,9 +62,9 @@ In the table below, the top 10 most producing countries and frequently represent
 
 ## When where the movies released ? How much money did they generate ? How long are they?
 
-**METTRE LES 3 HISTOGRAMMES** et les commenter
+![histograms](https://user-images.githubusercontent.com/100930184/209117040-fe635134-b049-4ab5-bb5f-977fdfe3f536.png)
 
-![Dates_hist](https://github.com/romana1234/ada-template-website/tree/master/assets/img)
+As 
 
 ## What are typical stereotypes regarding male and female characters in movies ?
 
