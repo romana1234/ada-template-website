@@ -72,7 +72,13 @@ Most of these regressions had relatively low $R^2$ values. This was to be expect
   <img width="800" alt="LR_countries" src="https://user-images.githubusercontent.com/100930184/209149800-6f10dc33-7434-4c29-963a-cdedab0c4f61.png">
 </div>
 
-The same analysis was performed for the movie genres. The regressions yield the following:
+The same analysis was performed for the movie genres. The regressions yield the following slopes:
+
+<div style="display: flex; justify-content: center;">
+  <img width="800" alt="LR_countries" src="https://user-images.githubusercontent.com/93708105/209160895-5a06e152-5cee-489b-8a4a-544be134dade.png">
+</div>
+
+
 
 <!--
 |         **Genre**         | **Slope** |     **Genre**     | **Slope** |      **Genre**      | **Slope** |
@@ -103,15 +109,14 @@ The same analysis was performed for the movie genres. The regressions yield the 
 |                           |           |                   |           | Glamorized Spy Film |   0.0917  |
 -->
 
-Similarly to the countries, most of the movie genres show an increasing trend of the female share. However, as fit was also the case for most countries, the increase is very dull. The $R^2$ values were also generally small for the same reasons as stated above. The genres that were plotted were again frequent movie-genres (Action, Thriller):
+Similarly to the countries, most of the movie genres show an increasing trend of the female share. However, as it was also the case for most countries, the increase is very dull. The $R^2$ values were also generally small for the same reasons as stated above. The genres that were plotted were again frequent movie-genres (with a significant p-vales < 0.04) and some additional interesting genres:
 
 <div style="display: flex; justify-content: center;">
   <img width="800" alt="LR_genre - Copie" src="https://user-images.githubusercontent.com/100930184/209152023-b444e896-5de4-4684-8f8b-776010cd7949.png">
 </div>
+An observation that can be pointed out is that all genres for children (Children's, Children's Fantasy and Children's/Family) has seen a steady increase of the female share. 
 
-Another interesting observation that can be pointed out is that all genres for children (Children's, Children's Fantasy and Children's/Family) has seen a steady increase of the female share: 
-
-This result is rather encouraging as the assimilation of stereotypes, such as "women are weak and men are strong" that are often portrayed in movies, begin at a very young age. Childhood is a particularly sensitive time in gender identity development. If children grow up watching movies with strong female protagonists, they are most likely to have reduced gender-based stereotypes. (REFERENCE!!! https://link.springer.com/article/10.1007/s11199-020-01127-z)
+This result is rather encouraging as the assimilation of stereotypes, such as "women are weak and men are strong" that are often portrayed in movies, begin at a very young age. Childhood is a particularly sensitive time in gender identity development. If children grow up watching movies with strong female protagonists, they are most likely to have reduced gender-based stereotypes, according to [this study](https://link.springer.com/article/10.1007/s11199-020-01127-z).
 
 
 ### Observational study: for similar careers, do actors participate in more movies than actresses?
