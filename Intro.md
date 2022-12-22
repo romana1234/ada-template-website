@@ -19,7 +19,7 @@ Through this project, the gender inequalities will be assessed in a quantitative
 In order to have a better feel for the data we are using, let's explore it by visualizing what we were given.
 
 ## Where does the data come from ? 
-The data from which our analysis will be based consists of 42'306 movie plot summaries extracted from Wikipedia. In addition to that, some movie metadata was also extracted from Freebase such as country, language, genre, characters, information about the actors/actresses playing the characters, movie runtime and release date.
+The data from which our analysis will be based consists of 42'306 movie plot summaries extracted from Wikipedia, with release date between 1880 and 2016. In addition to that, some movie metadata was also extracted from Freebase such as country, language, genre, characters, information about the actors/actresses playing the characters, movie runtime and release date.
 
 ## Who produces the movies and what are the most recurrent genres ?
 
