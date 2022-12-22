@@ -4,7 +4,7 @@ Now that we have a better overview of the data that was used, let's get into the
 
 To quantify the discrepancy between the number of men and women in movies, a 'Female share' index was created:
 
-$Female \quad share = \frac{Number \quad of \quad women}{Number \quad of \quad men \quad + \quad Number \quad of \quad women}$
+$Female\ share = \frac{Number\ of\ women}{Number\ of\ men\ +\ Number\ of\ women}$
 
 If the value of the index is close to zero: the movie is men-dominated, close to one: female-dominated, close to 0.5: equal number of actors and actresses.
 
