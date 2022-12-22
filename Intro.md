@@ -68,9 +68,9 @@ In the table below, the top 10 most producing countries and frequently represent
 
 ![Dates_hist](https://github.com/romana1234/ada-template-website/tree/master/assets/img)
 
-## What are typical stereotypes regarding male and female characters in movier ?
+## What are typical stereotypes regarding male and female characters in movies ?
 
-(...) used a test set of 501 individual characters that are assigned to 72 character types. These character types are user-submitted examples of common tropes found, among other media, in television, film, and fiction, coming from the website TV Tropes (http://tvtropes.org).
+(...) used a test set of 501 individual characters that are assigned to 72 character types. These character types are user-submitted examples of common tropes found, among other media, in television, film, and fiction, coming from the website TV Tropes (http://tvtropes.org). \
 The following table shows the 10 most common TV tropes and the number of movies in which those tropes appear.
 
 | tv trope                        | # of movies|
@@ -89,6 +89,7 @@ The following table shows the 10 most common TV tropes and the number of movies 
 So, in other words, we have:
 * male character: crazy, corrupt, hero, stoner, ...
 * female character: brainless, beauty, dumb, blonde, ...
+
 which pretty much represent the classic clichés about men and women.
 
 But is it really as simple as that? This extremely stereotypical portrayal of male and female characters in the film industry motivates us to examine the characters of the different genders in our collection of over 42000 films. Are these stereotypes just clichés, or is there really something behind them? How has the representation of male and female characters changed over time? In "Part 2 - Semantic Analysis" we explore these questions and find answers!
