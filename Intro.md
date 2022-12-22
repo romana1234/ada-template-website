@@ -59,7 +59,7 @@ In the table below, the top 10 most producing countries and frequently represent
 
 ## When where the movies released ? How much money did they generate ? How long are they?
 
-![histograms](https://user-images.githubusercontent.com/100930184/209135056-d01d29b5-1cb8-40ab-bf99-d5d9492dca43.png)
+<img src="https://user-images.githubusercontent.com/100930184/209135056-d01d29b5-1cb8-40ab-bf99-d5d9492dca43.png" width="700" />
 
 As it can be seen on the left hand-side histogram, most movies have a runtime of 100 minutes. Movie runtime has a mean of 94 and median of 93 minutes, 75% of movies have a runtime below 106 minutes. It is interesting to see that there are two peaks of runtime around 15 and 95 minutes.
 
