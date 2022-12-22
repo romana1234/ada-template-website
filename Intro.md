@@ -1,8 +1,4 @@
-# test image
-
-![alt text for image](../assets/img/movie_dates_hist.png)
-
-# Why is it important ?
+# Why do we care ?
 
 In recent years, the US movie industry has often been criticised in the media for its lack of female representation. As a simple and quick example: type 'most famous fictional adventurers' in a Google research bar. By clicking on the [first link provided](https://www.india.com/travel/articles/10-greatest-fictional-travelers-of-all-time-3236075/), a ranking of the top ten most famous fictional travelers of all time is shown, with only **one** being a woman. To extend these example, if you type most famous fictional characters, the first link [first link provided](https://fictionhorizon.com/most-iconic-fictional-characters/#:~:text=120%20Most%20Iconic%20Fictional%20Characters%20of%20All%20Time,Batman%20...%208%20Dorothy%20Gale%20...%20%C3%89l%C3%A9ments%20suppl%C3%A9mentaires) gives more than 120 characters, with only very few being female characters. In the [Wikipedia "Bechdel test" page](https://en.wikipedia.org/wiki/Bechdel_test#:~:text=The%20Bechdel%20test%20%28%2F%20%CB%88b%C9%9Bkd%C9%99l%20%2F%20BEK-d%C9%99l%29%20is,each%20other%20about%20something%20other%20than%20a%20man.) (a measure of the representation of women in film), the following graph was produced based on four different studies:
 
@@ -26,38 +22,39 @@ The data from which our analysis will be based consists of 42'306 movie plot sum
 In the table below, the top 10 most producing countries and frequently represented genres are displayed. In all of the movie dataset, almost 50% of all films have been produced in the USA or India (out of 147 countries). The genres are more equally distributed. 
 
 <table>
-<tr><th>Countries </th><th>Genres</th></tr>
-<tr><td>
+  <tr><th>Countries </th><th>Genres</th></tr>
+  <tr><td>
 
-|       **Countries**      | **Total number of movies** | **Ratio [%]** | **Cumulative sum [%]** |
-|:------------------------:|:--------------------------:|:---------:|:------------------:|
-| United States of America |            34408           |   39.80   |        39.81       |
-|           India          |            8411            |    9.73   |        49.54       |
-|      United Kingdom      |            7868            |    9.10   |        58.64       |
-|          France          |            4395            |    5.08   |        63.72       |
-|           Italy          |            3163            |    3.66   |        67.38       |
-|           Japan          |            2647            |    3.06   |        70.45       |
-|          Canada          |            2534            |    2.93   |        73.38       |
-|          Germany         |            2393            |    2.77   |        76.15       |
-|         Argentina        |            1468            |    1.70   |        77.84       |
-|         Hong Kong        |            1240            |    1.43   |        79.28       |
+  |       **Countries**      | **Total number of movies** | **Ratio [%]** | **Cumulative sum [%]** |
+  |:------------------------:|:--------------------------:|:---------:|:------------------:|
+  | United States of America |            34408           |   39.80   |        39.81       |
+  |           India          |            8411            |    9.73   |        49.54       |
+  |      United Kingdom      |            7868            |    9.10   |        58.64       |
+  |          France          |            4395            |    5.08   |        63.72       |
+  |           Italy          |            3163            |    3.66   |        67.38       |
+  |           Japan          |            2647            |    3.06   |        70.45       |
+  |          Canada          |            2534            |    2.93   |        73.38       |
+  |          Germany         |            2393            |    2.77   |        76.15       |
+  |         Argentina        |            1468            |    1.70   |        77.84       |
+  |         Hong Kong        |            1240            |    1.43   |        79.28       |
 
-</td><td>
+  </td><td>
   
-|    **Genre**    | **Total number of movies** | **Ratio [%]** | **Cumulative sum [%]** |
-|:---------------:|:--------------------------:|:---------:|:------------------:|
-|      Drama      |            34007           |   13.98   |        13.98       |
-|      Comedy     |            16349           |    6.72   |        20.70       |
-|   Romance Film  |            10234           |    4.21   |        24.90       |
-| Black-and-white |            9094            |    3.74   |        28.64       |
-|      Action     |            8798            |    3.62   |        32.25       |
-|     Thriller    |            8744            |    3.59   |        35.85       |
-|    Short Film   |            8141            |    3.35   |        39.19       |
-|   World cinema  |            7155            |    2.94   |        42.13       |
-|  Crime Fiction  |            6948            |    2.86   |        44.99       |
-|      Indie      |            6897            |    2.83   |        47.82       |
+  |    **Genre**    | **Total number of movies** | **Ratio [%]** | **Cumulative sum [%]** |
+  |:---------------:|:--------------------------:|:---------:|:------------------:|
+  |      Drama      |            34007           |   13.98   |        13.98       |
+  |      Comedy     |            16349           |    6.72   |        20.70       |
+  |   Romance Film  |            10234           |    4.21   |        24.90       |
+  | Black-and-white |            9094            |    3.74   |        28.64       |
+  |      Action     |            8798            |    3.62   |        32.25       |
+  |     Thriller    |            8744            |    3.59   |        35.85       |
+  |    Short Film   |            8141            |    3.35   |        39.19       |
+  |   World cinema  |            7155            |    2.94   |        42.13       |
+  |  Crime Fiction  |            6948            |    2.86   |        44.99       |
+  |      Indie      |            6897            |    2.83   |        47.82       |
 
-</td></tr> </table>
+  </td></tr> 
+</table>
 
 
 ## When where the movies released ? How much money did they generate ? How long are they?
