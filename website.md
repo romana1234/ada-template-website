@@ -170,5 +170,5 @@ For most countries and genres, the female share index is slowly increasing, mean
 
 The information given in this observational study suggests that men and women with similar careers, play in the same number of movies. However, the analyses performed in this section do not give information about the type of roles the actors/actresses played (main or secondary roles). It is possible that in a movie with the same number of women and men cast, actors play dignifying roles whereas women play secondary, more demeaning roles. The second part of the data story will explore the qualitative inequalities.
 
-Although the female share is slightly increasing from year to year, the typical stereotypes are still very strong (with women being part of more 'feminine topics' such as love and romance whereas men part of adventure/action movies). These inequalities may also be caused by other confounders (from which we have no data). As an example, a [study analysing the inequalities in 1'300 popular films](https://assets.uscannenberg.org/docs/aii-inequality_1300_popular_films_09-08-2020.pdf), suggests that, as of September 2020, only 19.4% of screenwriters were women. Parity in screenwriters may also automatically lead to parity in gender representations in movies.
+
 
