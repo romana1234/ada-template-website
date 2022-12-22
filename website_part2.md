@@ -3,39 +3,21 @@ layout: default
 ---
 
 # Part 2: Stereotypes and representation of different genders in the film industry
-This part focuses on how female and male characters are represented in movies. Typical stereotypes are identified and analyses are performed, if they are really reflected in the movies. Furthermore, the evolution of the representation in time is examined. 
+If you have read part 1 we have good news: this part is no longer about numbers and statistics - so, keep on! If you have not yet read part 1, you should do it - it is really interesting ;)
 
-For the stereotypes, already processed data are examined. For the rest, the lexicons describing the genders is obtained through the summaries. Each character of a certain movie is attributed the words in the sentences he appears in. The characters are assigned the gender of the 
-actor playing it, then the data are aggregated by the gender.
+This part focuses on how female and male characters are portrayed in movies. We examine whether the stereotypes mentioned in the introduction are actually reflected in the films. Analyses are conducted to investigate the qualitative inequalities between men and women in the film industry. In addition, the evolution of the representation of different genders in different time periods is examined. 
+
+For the stereotypes, already processed data are examined. For the rest, the lexicons describing the genders is obtained through the summaries of the 42'306 movies. Each character of a certain movie is attributed the words in the sentences he appears in. The characters are assigned the gender of the actor playing it, then the data are aggregated by the gender.
 
 ## Stereotypes of characters in movies by gender
-72 character types drawn from tvtropes.com, along with 500 instances of those types
+In the introduction, the most common stereotypes are already presented. As a reminder, the words used in the TV tropes for men and women, respectively, are shown in the word clouds below. All 500 instances of character types are included, and the font size of the words reflects the frequency of occurrence of that word.
 
-of which 69 refering to a female actor, and 431 to a male actor
-
-10 most prevalent character types:
-
-| tv trope                        | # of movies|
-|:--------------------------------|:-----------|
-| crazy jealous guy               |     25     |
-| corrupt corporate executive     |     23     |
-| byronic hero                    |     17     |
-| psycho for hire                 |     16     |
-| father to his men               |     15     |
-| stoner                          |     13     |
-| brainless beauty                |     12     |
-| master swordsman                |     12     |
-| dumb blonde                     |     11     |
-| slacker                         |     11     |
-
-
-Image with words from tv tropes by gender
+We provide, nevertheless, two more numbers here: 69 of the 500 instances represent a female character, while 431 refer to a male character. A bit unequal, isn't it?
 
 ![tvtropes_wordcloud](https://user-images.githubusercontent.com/114232327/209007228-546626e2-7177-4a72-95ab-766a2d4c6644.png)
 
+Beside the fact that the men icon is more rich in words, we can also obsereve huge differences in the meaning of the words. Nouns describing men are: guy, hunter, hero, badass, psycho. Whereas nouns for women are girls, beauty, donna. These already indicates the man to be the strong and bad hero, while the female character is more beauty-related. These tendencies are even more highlighted when we look at adjectives. Female characters are dumb, brainless and dumb. Male characters are crazy, corrupt, evil, and so on.
 
-
-The most used words in these tv tropes for characterizing a female and a male character respectively depict pretty much the stereotypes: The beautiful, blonde and dumb girl, whereas male characters are represented among other as corrupt, a badass, a hero. Moreover, the most used noun for women is "girl", while "guy" is mostely used to represent a man.
 
 ## Words used to describe male and female characters
 Two versions -> I don't know which one is better...
