@@ -64,7 +64,13 @@ In the table below, the top 10 most producing countries and frequently represent
 
 ![histograms](https://user-images.githubusercontent.com/100930184/209117040-fe635134-b049-4ab5-bb5f-977fdfe3f536.png)
 
-As 
+As can be seen in the left hand-side histogram, most movies have a runtime of 100 minutes, with a mean of 94 minutes and median of 93 minutes. 75% of movies have a runtime below 106 minutes. It is interesting to visualise that are two peaks of runtime around 15 and 95 minutes.
+
+there few movies with runtime 
+
+For better visualisation, 45 films were discarded to do the runtime histogram (those with runtime > 500 minutes). These outliers made the histogram difficult to read even in log-log scale. They correspond to 0.07% of the movies in the dataset.
+
+The movie boxoffice is plotted on a x-axis log scale given the wide range of values of boxoffice revenue. It shows a peak 
 
 ## What are typical stereotypes regarding male and female characters in movies ?
 
