@@ -13,10 +13,18 @@ Using a ratio rather than absolute values makes the analysis robust to the incre
 number-FS_evolution.png
 
 ### Is the situation the same for every country ?
-Barplot with 3 most producing countries + 3 countries with highest FS + 3 countries with lowest female share
+Here is a barplot with the 3 most movie producing countries, the 3 countries with the highest female share and the lowest female share.
+The US, the UK, and India have a small confidence intervall (95%), since they have a lot of data. On the contrary, the other countries produce much fewer movies and hence have larger error bars. Out of all countries, 75% have a female share below 0.39, which clearly shows an inequality in most movies produced.
+
+The barplot below only coniders countries with at least 20 people cast in total (throughout the whole analysed time period).
+
+![country_barplot_FS](https://user-images.githubusercontent.com/100930184/209135212-f67173e9-47fd-4090-aca8-2aa022f94d9c.png)
+
 
 ### And for every genre ? 
-same as above
+
+![genre_barplot_FS](https://user-images.githubusercontent.com/100930184/209136251-5cd1d9bc-48a1-4279-a374-4a56bb3ef2c8.png)
+
 
 ### What has been the evolution of the female share ?
 As seen in the female share averages of the most movie producing-countries and famous genres, the scene is clearly dominated by men. However, the previous analyses give no information about the evolution of the female share. A country, being aware of the inequalities in the movie industry, may have actively tried to reduce those inequalities in the past decade. If their film history has a very low female share, those efforts may not be perceptible in the previous analysis. 
@@ -54,6 +62,7 @@ However, India, the Netherlands, Sweden and especially Mexico and Bangladesh ten
 Most of these regressions had relatively low $R^2$ values. This was to be expected as there most likely are many confounders and the variation of the female share index cannot be simply explained by the year the movie was released. However, as we are not interested in making precise predictions but rather at identifying the general underlying trend, this simple regression is enough. As it can be seen in the following figures, the regression line approximates well the overall trend. The countries that were plotted are the USA and India as they are the most predominant film producers. In order to have a better vizualisation of the 'extreme' slopes, we also decided to plot Taiwan (high increase) and Mexico (high decrease).
 
 **PLOTS REGRESSIONS [USA, India, Taiwan, Mexico]**
+
 
 
 The same analysis was performed for the movie genres. The regressions yield the following: (FAIRE BOXPLOT + QUELQUES PAYS (les 5 en dessous plus d'autres intéressant))
