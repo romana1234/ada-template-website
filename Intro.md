@@ -12,6 +12,8 @@ This result clearly shows that the film industry is men dominated. But why is th
 
 Through this project, the gender inequalities will be assessed in a quantitative and qualitative way.
 
+PS: We want to make sure that we accept all different types of gender, and everyone should be able to live out the one they feel they belong to. However, since the only information we received in the data was whether the character was male or female, and those are the most common genders, we only examine those two genders.
+-> I don't know if we want to write something like this??
 
 
 # General overview of the data
