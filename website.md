@@ -1,4 +1,4 @@
-ouioui5
+ouioui6
 
   
 # Part 1: Quantitative analysis of women's representation in movies
@@ -7,7 +7,10 @@ Now that we have a better overview of the data that was used, let's get into the
 
 To quantify the discrepancy between the number of men and women in movies, a 'Female share' index was created:
 
-\\$Female\ share = \frac{Number\ of\ women}{Number\ of\ men\ +\ Number\ of\ women}\\$
+'''latex
+\begin{aligned}
+Female\ share = \frac{Number\ of\ women}{Number\ of\ men\ +\ Number\ of\ women}
+\end{aligned}
 
 If the value of the index is close to zero: the movie is men-dominated, close to one: female-dominated, close to 0.5: equal number of actors and actresses.
 
