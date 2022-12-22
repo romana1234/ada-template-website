@@ -62,15 +62,15 @@ In the table below, the top 10 most producing countries and frequently represent
 
 ## When where the movies released ? How much money did they generate ? How long are they?
 
-![histograms](https://user-images.githubusercontent.com/100930184/209117040-fe635134-b049-4ab5-bb5f-977fdfe3f536.png)
+![histograms](https://user-images.githubusercontent.com/100930184/209135056-d01d29b5-1cb8-40ab-bf99-d5d9492dca43.png)
 
-As can be seen in the left hand-side histogram, most movies have a runtime of 100 minutes, with a mean of 94 minutes and median of 93 minutes. 75% of movies have a runtime below 106 minutes. It is interesting to visualise that are two peaks of runtime around 15 and 95 minutes.
-
-there few movies with runtime 
+As it can be seen on the left hand-side histogram, most movies have a runtime of 100 minutes. Movie runtime has a mean of 94 and median of 93 minutes, 75% of movies have a runtime below 106 minutes. It is interesting to see that there are two peaks of runtime around 15 and 95 minutes.
 
 For better visualisation, 45 films were discarded to do the runtime histogram (those with runtime > 500 minutes). These outliers made the histogram difficult to read even in log-log scale. They correspond to 0.07% of the movies in the dataset.
 
-The movie boxoffice is plotted on a x-axis log scale given the wide range of values of boxoffice revenue. It shows a peak 
+The movie boxoffice histogram has a x-axis on log scale, given the wide range of values of boxoffice revenue, with a maximum at 2.78 billion dollars for "Avatar". Most revenues are concentrated around 5 million dollars.
+
+For the movie release dates, this is clearly heavy-tail distributed, with an explosion of movies made since the 1980's.
 
 ## What are typical stereotypes regarding male and female characters in movies ?
 
