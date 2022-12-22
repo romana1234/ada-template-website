@@ -96,4 +96,4 @@ So, in other words, we have:
 
 which pretty much represent the classic clichés about men and women.
 
-But is it really as simple as that? This extremely stereotypical portrayal of male and female characters in the film industry motivates us to examine the characters of the different genders in our collection of over 42000 films. Are these stereotypes just clichés, or is there really something behind them? How has the representation of male and female characters changed over time? In "Part 2 - Semantic Analysis" we explore these questions and find answers!
+But is it really as simple as that? This extremely stereotypical portrayal of male and female characters in the film industry motivates us to examine the characters of the different genders in our collection of over 42000 films. Are these stereotypes just clichés, or is there really something behind them? How has the representation of male and female characters changed over time? In "Part 2 - Qualitative Analysis" we explore these questions and find answers!
