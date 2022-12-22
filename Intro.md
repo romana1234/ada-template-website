@@ -74,7 +74,7 @@ For the movie release dates, this is clearly heavy-tail distributed, with an exp
 
 ## What are typical stereotypes regarding male and female characters in movies ?
 
-(...) used a test set of 501 individual characters that are assigned to 72 character types. These character types are user-submitted examples of common tropes found, among other media, in television, film, and fiction, coming from the website TV Tropes (http://tvtropes.org). \
+In their studies of "Learning Latent Personas of Film Characters" (Bamman et al., 2013) used a test set of 501 individual characters that are assigned to 72 character types. These character types are user-submitted examples of common tropes found, among other media, in television, film, and fiction, coming from the website TV Tropes (http://tvtropes.org). \
 The following table shows the 10 most common TV tropes and the number of movies in which those tropes appear.
 
 | tv trope                        | # of movies|
