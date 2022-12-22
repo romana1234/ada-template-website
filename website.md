@@ -1,5 +1,5 @@
-ouioui4
-<div style="test-align: justify;">
+ouioui5
+
   
 # Part 1: Quantitative analysis of women's representation in movies
 
@@ -7,7 +7,7 @@ Now that we have a better overview of the data that was used, let's get into the
 
 To quantify the discrepancy between the number of men and women in movies, a 'Female share' index was created:
 
-\$Female\ share = \frac{Number\ of\ women}{Number\ of\ men\ +\ Number\ of\ women}\$
+\\$Female\ share = \frac{Number\ of\ women}{Number\ of\ men\ +\ Number\ of\ women}\\$
 
 If the value of the index is close to zero: the movie is men-dominated, close to one: female-dominated, close to 0.5: equal number of actors and actresses.
 
@@ -34,13 +34,13 @@ The same is done for the movie genres, and yields the following:
 <div style="display: flex; justify-content: center;">
   <img src="https://user-images.githubusercontent.com/100930184/209136251-5cd1d9bc-48a1-4279-a374-4a56bb3ef2c8.png" width="700" />
 </div>
-  
+
 The difference between the highest and lowest female share is greater than for the countries, as genres are more specific. For example, it seems normal that there is a high female share in "Women in prison films". The genres with the highest female share show that women are still hyper-sexualized ("Hardcore pornography", which are movies mainly done for men) or associated with the stereotype of women having to be healthy, beautiful and fit ("Health & Fitness").
 
 ### What has been the evolution of the female share ?
 As seen in the female share averages of the most movie producing-countries and famous genres, the scene is clearly dominated by men. However, the previous analyses give no information about the evolution of the female share. A country, being aware of the inequalities in the movie industry, may have actively tried to reduce those inequalities in the past decade. If their film history has a very low female share, those efforts may not be perceptible in the previous analysis. 
 
-In order to identify increasing or decreasing (or neither) trends of the female share, for each country, a linear regression was performed on the time series to obtain the following relation: \$Female\ share\ =\ intercept\ + slope \cdot year\$. Analysing the slope of that linear relationship allows us to identify general trends. In order for the analysis to be relevant, only the years with at least 4 movies produced were kept. The countries with slopes having p-values greater than the usual threshold of 0.05 were also discarded. These linear regressions yield the following:
+In order to identify increasing or decreasing (or neither) trends of the female share, for each country, a linear regression was performed on the time series to obtain the following relation: \\$Female\ share\ =\ intercept\ + slope \cdot year\\$. Analysing the slope of that linear relationship allows us to identify general trends. In order for the analysis to be relevant, only the years with at least 4 movies produced were kept. The countries with slopes having p-values greater than the usual threshold of 0.05 were also discarded. These linear regressions yield the following:
 
 <!--
 |           Country          |  Slope  |
@@ -161,4 +161,3 @@ The information given in this observational study suggests that men and women wi
 
 Although the female share is slightly increasing from year to year, the typical stereotypes are still very strong (with women being part of more 'feminine topics' such as love and romance whereas men part of adventure/action movies). These inequalities may also be caused by other confounders (from which we have no data). As an example, a [study analysing the inequalities in 1'300 popular films](https://assets.uscannenberg.org/docs/aii-inequality_1300_popular_films_09-08-2020.pdf), suggests that, as of September 2020, only 19.4% of screenwriters were women. Parity in screenwriters may also automatically lead to parity in gender representations in movies.
 
-</div>
