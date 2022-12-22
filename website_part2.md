@@ -3,27 +3,25 @@ layout: default
 ---
 
 # Part 2: Stereotypes and representation of different genders in the film industry
-If you have read part 1, we have good news: this part is not about numbers and statistics anymore - so, let's move on! \
-If you have not read part 1 yet, you should - it is really interesting ;)
+If you have read part 1, we have good news: this part is not about numbers and statistics anymore - so, let's move on! If you have not read part 1 yet, you should - it is really interesting ;)
 
 This part focuses on how female and male characters are portrayed in movies. We examine whether the stereotypes mentioned in the introduction are actually reflected in the films. Analyses are conducted to investigate the qualitative inequalities between men and women in the film industry. In addition, the evolution of the representation of different genders in different time periods is examined. 
 
-For the stereotypes, already processed data are examined. For the rest, the lexicons describing the genders is obtained through the summaries of the 42'306 movies. Each character of a certain movie is attributed the words in the sentences he appears in. The characters are assigned the gender of the actor playing it, then the data are aggregated by the gender.
+For the stereotypes, already processed data are examined. For the rest, the lexicon describing the genders is obtained through the summaries of the 42'306 movies. Each character of a certain movie is attributed the words in the sentences he appears in. The characters are assigned the gender of the actor playing it, then the data are aggregated by the gender.
 
 ## Stereotypes of characters in movies by gender
 In the introduction, the most common stereotypes are already presented. As a reminder, the words used in the TV tropes for men and women, respectively, are shown in the word clouds below. All 500 instances of character types are included, and the font size of the words reflects the frequency of occurrence of that word.
 
-We provide, nevertheless, two more numbers here: 69 of the 500 instances represent a female character, while 431 refer to a male character. A bit unequal, isn't it?
+We provide, nevertheless, two more numbers here: 69 of all instances represent a female character, while 431 refer to a male character. A bit unequal, isn't it?
 
 ![tvtropes_wordcloud](https://user-images.githubusercontent.com/114232327/209007228-546626e2-7177-4a72-95ab-766a2d4c6644.png)
 
-Beside the fact that the men icon is more rich in words, we can also obsereve huge differences in the meaning of the words. Nouns describing men are: guy, hunter, hero, badass, psycho. Whereas nouns for women are girls, beauty, donna. These already indicates the man to be the strong and bad hero, while the female character is more beauty-related. These tendencies are even more highlighted when we look at adjectives. Female characters are dumb, brainless and dumb. Male characters are crazy, corrupt, evil, and so on.
+Apart from the fact that the men icon is richer in words, we can also notice great differences in the meaning of the words. Nouns describing men are: guy, hunter, hero, badass, psycho. Nouns for women, on the other hand, are: girls, beauty, donna. These already indicates the man to be the strong and bad hero, while the female character is more beauty-oriented. These tendencies are even more highlighted when we look at adjectives. Female characters are dumb, brainless and dumb. Male characters are crazy, corrupt, evil, and so on.
 
 
 ## Words used to describe male and female characters
-Now we really dig into the vast variety of male and female characters extracted from the 42'306 movie summaries. For every summary, the information about a character is extracted and divided into part of speech (adjectives, nouns and verbs). First, we analyze every part of speech for every gender separately. This is shown by the word clouds below. For the third column, the words in the corresponding row are feeded to the Empath library, so that they are assigned to different categories. This allows to compare the words for women to those for men. In this representation, we selected the categories that show the most difference between man and women for the corresponding part of speech.
+Now we really dig into the vast variety of male and female characters extracted from the 42'306 movie summaries. For every summary, the information about a character is extracted and divided into part of speech (adjectives, nouns and verbs). First, we analyze every part of speech for each gender separately. This is shown by the word clouds below. For the third column, the words in the corresponding row are fed into the Empath library, so that they are assigned to different categories. In this way, the words for women can be compared to those for men. In this figure, we selected the five categories that show the largest difference between man and women for the corresponding part of speech.
 
-For every part of speech (adj, vb, nn), the 5 empath categories are selected with the largest difference for men and women.
 ![JJ_NN_VB_cat_diff](https://user-images.githubusercontent.com/114232327/209007446-ebce514e-011a-4ef8-a153-c28d0140f655.png)
 
 Looking at the adjectives, significant differences between the two genders are in the Empath-categories children, youth, attractive, sexual and beauty. All these categories show a significantly higher contribution of female characters than male. Indeed, we see for example the big word 'young' for women, which explains the category 'youth', whereas the adjective 'old' is often used for describing both genders. The differences in the category 'children', can partly be explained by the adjective 'pregnant' that is quite often used for female, and obviously not in the adjectives describing male characters. \
@@ -43,7 +41,7 @@ Correlation between genders and time periods are given in the following matrix:
 
 ![corr_periods_gender](https://user-images.githubusercontent.com/114232327/209010234-a1d60ec9-0254-4696-90c7-042561da8cee.png)
 
-We see lower correlation between the genders (darker squares on the top right and bottom left). Very high correlation exists among the three periods of the same gender (green squares). We observe for both genders that P2 is higher correlated with P1 and P3, than the correlation between P1 and P3. In fact, the correlation coefficient for P2 and P3 is highest within the same gender.
+We see a lower correlation between the genders (darker squares on the top right and bottom left). Very high correlation exists among the three periods of the same gender (green squares). We observe for both genders that P2 is more strongly correlated with P1 and P3 than the correlation between P1 and P3. In fact, the correlation coefficient for P2 and P3 is highest within the same sex.
 
 
 ### Principle component analysis (PCA)
