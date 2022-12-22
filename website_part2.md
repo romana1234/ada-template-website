@@ -46,11 +46,15 @@ We see lower correlation between the genders (darker squares on the top right an
 
 
 ### Principle component analysis (PCA)
+A PCA allows us to represent the high number of features (Empath-categories) in some principle components (PCs). Therefor, we hope to show the differences in gender and in the three time periods on one single 2D graph! The two PCs with their respective explained variance ratio are depicted in the following figure. 
 
 ![PCA](https://user-images.githubusercontent.com/114232327/209010620-b254b5d5-e00b-45dd-97d9-4e61945340aa.png)
 
-  
-The PCA allows the discimination of the data based on two principles components. PC I separates men and women. PC II: reflects differences in time periods. Overall there seems to be a tendency, especially on men side, of regroupement indicating less differences nowaday between the lexicon used to describe each characters actions. This is only an hypothesis, PCA is not a suitable method to confirm this. The PC explained variance ratio sum equal 92.5 %, which is considered as satisfactory.
+The PCA allows the discimination of the data based on two principles components. It seems that:
+* PC I: separates men and women
+* PC II: reflects differences in time periods
+
+Overall, there seems to be a tendency for males and females to converge (both approach the midline when looking at the horizontal shift between time periods, especially on the male side). This regrouping suggests that the differences in the lexis used to describe each person's actions are smaller today. However, it is not clearly evident that women's vocabulary has changed more over time. These are however only hypotheses, PCA is not an appropriate method to confirm them. The sum of PC explained variance is 92.5%, which is considered satisfactory.
 
 
 
@@ -59,15 +63,10 @@ The PCA allows the discimination of the data based on two principles components.
 ![evolution_categories](https://user-images.githubusercontent.com/114232327/209010664-a3564c56-3e8b-4328-9cd7-80b564038725.png)
 
   
-Digging into specific categories of words evolution allow further investigations and analyses. Love category is mainly assigned to female, but this tendency is reducing since 1950. Crime is always more associated
-to men. Domestic work which is still mainly attributed to women characters have some rises in men lexicon too. Power and heroic shows same chronological trends for both gender, even if they are still mainly 
-associated to men. Social media and science have also similar trends with first a cross over between the two first period and then a high rises for the last period. Finally, politics is less present in film summaries
-than before, but the female share of this topic is disappearing. 
+Digging into specific categories of words evolution allow further investigations and analyses. Love category is mainly assigned to female, but this tendency is reducing since 1950. Crime is always more associated to men, although women words also have a high share in that category. Domestic work, which is still mainly associated with women characters, have some rises in men lexicon too. Power and heroic shows same chronological trends for both gender, even if they are still mainly associated to men. The relative share of words in the category leader is stable on a high level for men, whereas it decrased from P1 to P2 for women and now slightly increases again. Social media shows a high rise during the last period, which reflects the fact that social media is a more recent phenomenon. Finally, beauty has always been more important in the female vocabulary, with a peak in P2 for both gender a slighth decrase since then. 
 
 ### Limitations of the analysis on lexicons from film summaries:
 
-As the lexicons are based on sentences where a character appears and do not consider how the character is implied, there are some biases. Also, the lexicons are not representatives of the subjectivity involved
-in the sentences. For example, a sentence where the word "tortured" is implied could be of different meaning. Having tortured sentiments or beeing tortured is absolutely not the same. Indeed the categorisation 
-done with empath would lead to the same category attribution for both meaning.
+As the lexicon is based on sentences where a character appears and do not consider how the character is implied, there are some biases. Also, the lexicon is not representatives of the subjectivity involved in the sentences. For example, a sentence where the word "tortured" is implied could be of different meaning. Having tortured sentiments or beeing tortured is absolutely not the same. Indeed, the categorisation done with empath would lead to the same category attribution for both meaning.
 
 
