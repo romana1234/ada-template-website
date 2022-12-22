@@ -12,4 +12,6 @@ navigation:
     url: website
   - title: Part 2 - Qualitative analysis
     url: website_part2
+  - title: Conclusion
+    url: Conclusion
 
