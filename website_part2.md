@@ -3,7 +3,8 @@ layout: default
 ---
 
 # Part 2: Stereotypes and representation of different genders in the film industry
-If you have read part 1 we have good news: this part is no longer about numbers and statistics - so, keep on! If you have not yet read part 1, you should do it - it is really interesting ;)
+If you have read part 1, we have good news: this part is not about numbers and statistics anymore - so, let's move on! \
+If you have not read part 1 yet, you should - it is really interesting ;)
 
 This part focuses on how female and male characters are portrayed in movies. We examine whether the stereotypes mentioned in the introduction are actually reflected in the films. Analyses are conducted to investigate the qualitative inequalities between men and women in the film industry. In addition, the evolution of the representation of different genders in different time periods is examined. 
 
