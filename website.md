@@ -1,4 +1,6 @@
-ouioui3
+ouioui4
+<div style="test-align: justify;">
+  
 # Part 1: Quantitative analysis of women's representation in movies
 
 Now that we have a better overview of the data that was used, let's get into the actual analysis of the inequalities. Are these inequalities still present today? Have they evolved in time? For the better or for the worse? 
@@ -159,4 +161,4 @@ The information given in this observational study suggests that men and women wi
 
 Although the female share is slightly increasing from year to year, the typical stereotypes are still very strong (with women being part of more 'feminine topics' such as love and romance whereas men part of adventure/action movies). These inequalities may also be caused by other confounders (from which we have no data). As an example, a [study analysing the inequalities in 1'300 popular films](https://assets.uscannenberg.org/docs/aii-inequality_1300_popular_films_09-08-2020.pdf), suggests that, as of September 2020, only 19.4% of screenwriters were women. Parity in screenwriters may also automatically lead to parity in gender representations in movies.
 
-
+</div>
