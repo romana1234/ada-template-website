@@ -18,7 +18,11 @@ The US, the UK, and India have a small confidence interval (95%) since they have
 
 The barplot below only considers countries with at least 20 people cast in total (throughout the whole analysed time period).
 
-<img src="https://user-images.githubusercontent.com/100930184/209135212-f67173e9-47fd-4090-aca8-2aa022f94d9c.png" style="display: block; margin: 0 auto; width: 50%;" />
+<div style="display: flex; justify-content: center;">
+  <img src="https://user-images.githubusercontent.com/100930184/209135212-f67173e9-47fd-4090-aca8-2aa022f94d9c.png" style="width: 50%;" />
+</div>
+
+
 
 ### And for every genre ? 
 
