@@ -20,29 +20,30 @@ Beside the fact that the men icon is more rich in words, we can also obsereve hu
 
 
 ## Words used to describe male and female characters
-Two versions -> I don't know which one is better...
+Now we really dig into the vast variety of male and female characters extracted from the 42'306 movie summaries. For every summary, the information about a character is extracted and divided into part of speech (adjectives, nouns and verbs). First, we analyze every part of speech for every gender separately. This is shown by the word clouds below. For the third column, the words in the corresponding row are feeded to the Empath library, so that they are assigned to different categories. This allows to compare the words for women to those for men. In this representation, we selected the categories that show the most difference between man and women for the corresponding part of speech.
 
 For every part of speech (adj, vb, nn), the 5 empath categories are selected with the largest difference for men and women.
 ![JJ_NN_VB_cat_diff](https://user-images.githubusercontent.com/114232327/209007446-ebce514e-011a-4ef8-a153-c28d0140f655.png)
 
-
+Looking at the adjectives, significant differences between the two genders are in the Empath-categories children, youth, attractive, sexual and beauty. All these categories show a significantly higher contribution of female characters than male. Indeed, we see for example the big word 'young' for women, which explains the category 'youth', whereas the adjective 'old' is often used for describing both genders. The differences in the category 'children', can partly be explained by the adjective 'pregnant' that is quite often used for female, and obviously not in the adjectives describing male characters. \
+The same tendencies are observed when looking at the nouns. Children, family, home and friends seem to be more important in the nouns attributed to female characters. Additionally, we observe the word 'love' that appears in the cloud of women quite big compared to its size in the cloud for men. \
+Finally, for the verbs, we see a completely different graph. Most difference is detected in the categories related to violance, where verbs attributed to male characters have a much higher share than for women.
 
 
 ## Evolution of the representation of gender over time
-(consider adjectives and nouns associated to a character)
+Do we see a change in the portrayal of men and women when looking at different time periods? For the classification of words into Empath-categories, we used adjectives, nouns and verbs together.
 
-Definition of three time periods (P):
+Three time periods (P) are defined for this analysis:
 * P1:         movie release year < 1950
 * P2: 1950 <= movie release year < 1980
 * P3: 1980 <  movie release year
 
-Correlation matrix
+Correlation between genders and time periods are given in the following matrix:
 
 ![corr_periods_gender](https://user-images.githubusercontent.com/114232327/209010234-a1d60ec9-0254-4696-90c7-042561da8cee.png)
 
+We see lower correlation between the genders (darker squares on the top right and bottom left). Very high correlation exists among the three periods of the same gender (green squares). We observe for both genders that P2 is higher correlated with P1 and P3, than the correlation between P1 and P3. In fact, the correlation coefficient for P2 and P3 is highest within the same gender.
 
-
-Very high correlation among the three periods of the same gender. Lower correlation between men and women. Highest correlation between P2 and P3 of the same gender (for both men and women).
 
 ### Principle component analysis (PCA)
 
