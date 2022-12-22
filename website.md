@@ -11,7 +11,7 @@ If the value of the index is close to zero: the movie is men-dominated, close to
 
 Using a ratio rather than absolute values makes the analysis robust to the increasing number of movies over these last decades (hence the yearly number of actors/actresses cast). As can be seen in the following plots, although the number of movies produced has seen a great boost starting around the 1960s, the proportion of women compared to men does not seem to have known a significant increase on a global scale.
 
-<img src="https://user-images.githubusercontent.com/100930184/209138153-57bb8ea9-c46b-4cf7-bb73-fea0fa8e654e.png" width="700" />
+<img src="https://user-images.githubusercontent.com/100930184/209138153-57bb8ea9-c46b-4cf7-bb73-fea0fa8e654e.png" width="800" />
 
 ### Is the situation the same for every country?
 Here is a barplot with the 3 most movie-producing countries, the 3 countries with the highest female share and the lowest female share.
@@ -20,7 +20,7 @@ The US, the UK, and India have a small confidence interval (95%) since they have
 The barplot below only considers countries with at least 20 people cast in total (throughout the whole analysed time period).
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://user-images.githubusercontent.com/100930184/209135212-f67173e9-47fd-4090-aca8-2aa022f94d9c.png" style="width: 70%;" />
+  <img src="https://user-images.githubusercontent.com/100930184/209135212-f67173e9-47fd-4090-aca8-2aa022f94d9c.png" style="width: 75%;" />
 </div>
 
 
@@ -30,7 +30,7 @@ The barplot below only considers countries with at least 20 people cast in total
 The same is done for the movie genres, and yields the following:
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://user-images.githubusercontent.com/100930184/209136251-5cd1d9bc-48a1-4279-a374-4a56bb3ef2c8.png" width="500" />
+  <img src="https://user-images.githubusercontent.com/100930184/209136251-5cd1d9bc-48a1-4279-a374-4a56bb3ef2c8.png" width="700" />
 </div>
   
 The difference between the highest and lowest female share is greater than for the countries, as genres are more specific. For example, it seems normal that there is a high female share in "Women in prison films". The genres with the highest female share show that women are still hyper-sexualized ("Hardcore pornography", which are movies mainly done for men) or associated with the stereotype of women having to be healthy, beautiful and fit ("Health & Fitness").
@@ -60,7 +60,7 @@ In order to identify increasing or decreasing (or neither) trends of the female 
 -->
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://user-images.githubusercontent.com/100930184/209142990-511c4384-fe02-4c62-87c5-ea3753741d40.png" alt="image" width="500">
+  <img src="https://user-images.githubusercontent.com/100930184/209142990-511c4384-fe02-4c62-87c5-ea3753741d40.png" alt="image" width="700">
 </div>
 
 The slope values have been sorted in ascending order. Most of the countries shown in the figure above (17 out of 22) have had an overall increase in the female share over these past decades. Although they do not show a strong increase, it is still great to see that for many countries, the presence of women on screen is growing.
@@ -69,7 +69,7 @@ However, India, the Netherlands, Sweden and especially Mexico and Bangladesh ten
 Most of these regressions had relatively low $R^2$ values. This was to be expected as there most likely are many confounders and the variation of the female share index cannot be simply explained by the year the movie was released. However, as we are not interested in making precise predictions but rather at identifying the general underlying trend, this simple regression is enough. As it can be seen in the following figures, the regression line approximates well the overall trend. The countries that were plotted are the USA and India as they are the most predominant film producers. In order to have a better vizualisation of the 'extreme' slopes, we also decided to plot Taiwan (high increase) and Mexico (high decrease).
 
 <div style="display: flex; justify-content: center;">
-  <img width="700" alt="LR_countries" src="https://user-images.githubusercontent.com/100930184/209149800-6f10dc33-7434-4c29-963a-cdedab0c4f61.png">
+  <img width="800" alt="LR_countries" src="https://user-images.githubusercontent.com/100930184/209149800-6f10dc33-7434-4c29-963a-cdedab0c4f61.png">
 </div>
 
 The same analysis was performed for the movie genres. The regressions yield the following:
@@ -106,7 +106,7 @@ The same analysis was performed for the movie genres. The regressions yield the 
 Similarly to the countries, most of the movie genres show an increasing trend of the female share. However, as fit was also the case for most countries, the increase is very dull. The $R^2$ values were also generally small for the same reasons as stated above. The genres that were plotted were again frequent movie-genres (Action, Thriller):
 
 <div style="display: flex; justify-content: center;">
-  <img width="700" alt="LR_genre - Copie" src="https://user-images.githubusercontent.com/100930184/209152023-b444e896-5de4-4684-8f8b-776010cd7949.png">
+  <img width="800" alt="LR_genre - Copie" src="https://user-images.githubusercontent.com/100930184/209152023-b444e896-5de4-4684-8f8b-776010cd7949.png">
 </div>
 
 Another interesting observation that can be pointed out is that all genres for children (Children's, Children's Fantasy and Children's/Family) has seen a steady increase of the female share: 
@@ -119,7 +119,7 @@ This result is rather encouraging as the assimilation of stereotypes, such as "w
 Many confounders could potentially affect the number of women in movies. As an example, a man screenwriter is more likely to write a script with a more men-dominated point of view and hence cast more men as if the script was written by a woman. In order to try and mitigate the effect of confounders, a 1-on-1 matching observational study was performed based on these matching criteria: year of the actor's first movie, age of the actor for its first movie, age of the actor for its last movie, career length and ethnicity of the actor. Based on these criteria, an actor and an actress were matched and the number of movies they participated in were compared. As the distribution of the number of movies is heavy tailed, the natural logarithm of the movie count was used. It yileds the following result:
 
 <div style="display: flex; justify-content: center;">
-  <img width="400" src="https://user-images.githubusercontent.com/100930184/209152849-6183b54d-8282-4d11-b568-c73836141045.png">
+  <img width="600" src="https://user-images.githubusercontent.com/100930184/209152849-6183b54d-8282-4d11-b568-c73836141045.png">
 </div>
 
 From the plot above it seems that men and women with similar careers do play, on average, in the same amount of movies. A simple t-test allows to verify that observation. The t-test between the two averages gives a p-values = 0.96 which clearly shows that the null hypothesis (the two samples have identical averages) cannot be rejected.
@@ -130,14 +130,14 @@ From the plot above it seems that men and women with similar careers do play, on
 Through this analysis, we will try and identify what predictors in a movie would lead to a higher female share. We will use all of the information given for each movies: year when the movie was released, runtime, boxoffice and genre (only the top 10 genres were used). As most of the movies produced come from the USA, the analysis will only be carried out on movies made in the United States. After creating dummy variables for the 10 genres (categorical data), each predictors were standardized using z-scores in order to have comparable units. The results of the linear regression is summarized in the following table:
 
 <div style="display: flex; justify-content: center;">
-  <img width="700" src="https://user-images.githubusercontent.com/100930184/209154954-16526e57-e7b4-4a2b-9f24-1e4268029cde.png">
+  <img width="800" src="https://user-images.githubusercontent.com/100930184/209154954-16526e57-e7b4-4a2b-9f24-1e4268029cde.png">
 </div>
 
 
 The low $R^2 \approx 0.1$ values suggests that the predictors used do not explain all of the variance. Even though that number is reltively low, the p-values of our parameters are almost all significant (<0.05, despite the intercept and 'World cinema' genre), suggesting that they are significant for the assessment of the female share. In order to have a better visulization of the relative impact of each predictor on the female share, let's take a look at the following figure:
 
 <div style="display: flex; justify-content: center;">
-  <img width="700" src="https://user-images.githubusercontent.com/100930184/209154831-e693830f-5fb6-4980-a8e3-1a1c81dff259.png">
+  <img width="800" src="https://user-images.githubusercontent.com/100930184/209154831-e693830f-5fb6-4980-a8e3-1a1c81dff259.png">
 </div>
 
 
