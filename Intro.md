@@ -21,9 +21,6 @@ The data from which our analysis will be based consists of 42'306 movie plot sum
 
 In the table below, the top 10 most producing countries and frequently represented genres are displayed. In all of the movie dataset, almost 50% of all films have been produced in the USA or India (out of 147 countries). The genres are more equally distributed. 
 
-<table>
-  <tr><th>Countries </th><th>Genres</th></tr>
-  <tr><td>
 
   |       **Countries**      | **Total number of movies** | **Ratio [%]** | **Cumulative sum [%]** |
   |:------------------------:|:--------------------------:|:---------:|:------------------:|
@@ -38,7 +35,6 @@ In the table below, the top 10 most producing countries and frequently represent
   |         Argentina        |            1468            |    1.70   |        77.84       |
   |         Hong Kong        |            1240            |    1.43   |        79.28       |
 
-  </td><td>
   
   |    **Genre**    | **Total number of movies** | **Ratio [%]** | **Cumulative sum [%]** |
   |:---------------:|:--------------------------:|:---------:|:------------------:|
@@ -53,8 +49,7 @@ In the table below, the top 10 most producing countries and frequently represent
   |  Crime Fiction  |            6948            |    2.86   |        44.99       |
   |      Indie      |            6897            |    2.83   |        47.82       |
 
-  </td></tr> 
-</table>
+  
 
 
 ## When where the movies released ? How much money did they generate ? How long are they?
