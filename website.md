@@ -1,4 +1,4 @@
-ouioui6
+ouioui7
 
   
 # Part 1: Quantitative analysis of women's representation in movies
@@ -7,10 +7,10 @@ Now that we have a better overview of the data that was used, let's get into the
 
 To quantify the discrepancy between the number of men and women in movies, a 'Female share' index was created:
 
-'''latex
-\begin{aligned}
-Female\ share = \frac{Number\ of\ women}{Number\ of\ men\ +\ Number\ of\ women}
-\end{aligned}
+<div style="display: flex; justify-content: center;">
+  <img src="https://user-images.githubusercontent.com/93708105/209166782-bb8497db-6be9-4573-9a3c-d2b0701410ce.png" width="380";" />
+</div>
+
 
 If the value of the index is close to zero: the movie is men-dominated, close to one: female-dominated, close to 0.5: equal number of actors and actresses.
 
@@ -43,7 +43,13 @@ The difference between the highest and lowest female share is greater than for t
 ### What has been the evolution of the female share ?
 As seen in the female share averages of the most movie producing-countries and famous genres, the scene is clearly dominated by men. However, the previous analyses give no information about the evolution of the female share. A country, being aware of the inequalities in the movie industry, may have actively tried to reduce those inequalities in the past decade. If their film history has a very low female share, those efforts may not be perceptible in the previous analysis. 
 
-In order to identify increasing or decreasing (or neither) trends of the female share, for each country, a linear regression was performed on the time series to obtain the following relation: \\$Female\ share\ =\ intercept\ + slope \cdot year\\$. Analysing the slope of that linear relationship allows us to identify general trends. In order for the analysis to be relevant, only the years with at least 4 movies produced were kept. The countries with slopes having p-values greater than the usual threshold of 0.05 were also discarded. These linear regressions yield the following:
+In order to identify increasing or decreasing (or neither) trends of the female share, for each country, a linear regression was performed on the time series to obtain the following relation: 
+
+<div style="display: flex; justify-content: center;">
+  <img src="https://user-images.githubusercontent.com/93708105/209166954-6fa1d249-5c0a-4ef5-92c9-2f99cdd23fda.png" width="380" />
+</div>
+
+Analysing the slope of that linear relationship allows us to identify general trends. In order for the analysis to be relevant, only the years with at least 4 movies produced were kept. The countries with slopes having p-values greater than the usual threshold of 0.05 were also discarded. These linear regressions yield the following:
 
 <!--
 |           Country          |  Slope  |
