@@ -1,4 +1,4 @@
-ouioui8
+ouioui9
 
   
 # Part 1: Quantitative analysis of women's representation in movies
@@ -79,7 +79,7 @@ Analysing the slope of that linear relationship allows us to identify general tr
 The slope values have been sorted in ascending order. Most of the countries shown in the figure above (17 out of 22) have had an overall increase in the female share over these past decades. Although they do not show a strong increase, it is still great to see that for many countries, the presence of women on screen is growing.
 However, India, the Netherlands, Sweden and especially Mexico and Bangladesh tend to have cast less and less women (compared to men) over the years.
 
-Most of these regressions had relatively low $R^2$ values. This was to be expected as there most likely are many confounders and the variation of the female share index cannot be simply explained by the year the movie was released. However, as we are not interested in making precise predictions but rather at identifying the general underlying trend, this simple regression is enough. As it can be seen in the following figures, the regression line approximates well the overall trend. The countries that were plotted are the USA and India as they are the most predominant film producers. In order to have a better vizualisation of the 'extreme' slopes, we also decided to plot Taiwan (high increase) and Mexico (high decrease).
+Most of these regressions had relatively low R-squared values. This was to be expected as there most likely are many confounders and the variation of the female share index cannot be simply explained by the year the movie was released. However, as we are not interested in making precise predictions but rather at identifying the general underlying trend, this simple regression is enough. As it can be seen in the following figures, the regression line approximates well the overall trend. The countries that were plotted are the USA and India as they are the most predominant film producers. In order to have a better vizualisation of the 'extreme' slopes, we also decided to plot Taiwan (high increase) and Mexico (high decrease).
 
 <div style="display: flex; justify-content: center;">
   <img width="800" alt="LR_countries" src="https://user-images.githubusercontent.com/100930184/209149800-6f10dc33-7434-4c29-963a-cdedab0c4f61.png">
@@ -122,7 +122,7 @@ The same analysis was performed for the movie genres. The regressions yield the 
 |                           |           |                   |           | Glamorized Spy Film |   0.0917  |
 -->
 
-Similarly to the countries, most of the movie genres show an increasing trend of the female share. However, as it was also the case for most countries, the increase is very dull. The $R^2$ values were also generally small for the same reasons as stated above. The genres that were plotted were again frequent movie-genres (with a significant p-vales < 0.04) and some additional interesting genres:
+Similarly to the countries, most of the movie genres show an increasing trend of the female share. However, as it was also the case for most countries, the increase is very dull. The R-squared values were also generally small for the same reasons as stated above. The genres that were plotted were again frequent movie-genres (with a significant p-vales < 0.04) and some additional interesting genres:
 
 <div style="display: flex; justify-content: center;">
   <img width="800" alt="LR_genre - Copie" src="https://user-images.githubusercontent.com/100930184/209152023-b444e896-5de4-4684-8f8b-776010cd7949.png">
@@ -152,7 +152,7 @@ Through this analysis, we will try and identify what predictors in a movie would
 </div>
 
 
-The low $R^2 \approx 0.1$ values suggests that the predictors used do not explain all of the variance. Even though that number is reltively low, the p-values of our parameters are almost all significant (<0.05, despite the intercept and 'World cinema' genre), suggesting that they are significant for the assessment of the female share. In order to have a better visulization of the relative impact of each predictor on the female share, let's take a look at the following figure:
+The low R-squared = 0.098 value suggests that the predictors used do not explain all of the variance. Even though that number is reltively low, the p-values of our parameters are almost all significant (<0.05, despite the intercept and 'World cinema' genre), suggesting that they are significant for the assessment of the female share. In order to have a better visulization of the relative impact of each predictor on the female share, let's take a look at the following figure:
 
 <div style="display: flex; justify-content: center;">
   <img width="800" src="https://user-images.githubusercontent.com/100930184/209154831-e693830f-5fb6-4980-a8e3-1a1c81dff259.png">
