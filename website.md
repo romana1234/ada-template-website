@@ -1,5 +1,3 @@
-ouioui10
-
   
 # Part 1: Quantitative analysis of women's representation in movies
 
