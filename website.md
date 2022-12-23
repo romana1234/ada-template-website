@@ -15,7 +15,7 @@ To quantify the discrepancy between the number of men and women in movies, a 'Fe
 
 If the value of the index is close to zero: the movie is men-dominated, close to one: female-dominated, close to 0.5: equal number of actors and actresses.
 
-Using a ratio rather than absolute values makes the analysis robust to the increasing number of movies over these last decades (hence the yearly number of actors/actresses cast). As can be seen in the following plots, although the number of movies produced has seen a great boost starting around the 1960s, the proportion of women compared to men does not seem to have known a significant increase on a global scale.
+Using a ratio rather than absolute values makes the analysis robust to the increasing number of movies over these last decades (hence the yearly number of actors/actresses cast). As can be seen in the following plots, although the number of movies produced has seen a great boost starting around the 1960s, the proportion of women compared to men does not seem to have known a significant increase on a global scale. Note that for the earliest movies, as very few were made, the yearly average female share is very sensitive and is hence highly variable.
 
 <img src="https://user-images.githubusercontent.com/100930184/209138153-57bb8ea9-c46b-4cf7-bb73-fea0fa8e654e.png" width="800" />
 
