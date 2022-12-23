@@ -5,3 +5,5 @@ Although the female share is slightly increasing from year to year, the typical 
 When analyzing the words used in relation with male and female characters, a separation between the two genders can be seen. Words about women refer much more to family/home/beauty, while the lexicon about men has a higher share in categories such as war/crime/power/leader. So yes, typical stereotypes can also be observed in the qualitative analysis of the 42’306 movie summaries! However, an evolution in the representation of characters of different genders is taking place, and even a convergence towards a similar lexicon is observed.
 
 In summary, the role of women in the film industry is not the same as that of men. Both have changed in recent years, and we will certainly see further changes in the years to come.
+
+![gender_symbol](https://user-images.githubusercontent.com/114232327/209329474-a6ff2d78-b0e2-4640-8785-f15aa91cd71e.png)
