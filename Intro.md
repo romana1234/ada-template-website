@@ -21,7 +21,7 @@ The data from which our analysis is be based consists of 42'306 movie plot summa
 
 ## Who produces the movies and what are the most recurrent genres?
 
-In the table below, the top 10 most movie-producing countries and frequently represented genres are displayed. In all of the movie datasets, almost 50% of all films have been produced in the USA or India (out of 147 countries). The genres are more equally distributed. 
+In the table below, the top 10 most movie-producing countries and frequently represented genres are displayed. In all of the movie datasets, almost 50% of all movies have been produced in the USA or India (out of 147 countries). The genres are more equally distributed. 
 
 
   |       **Countries**      | **Total number of movies** | **Ratio [%]** | **Cumulative sum [%]** |
@@ -62,7 +62,7 @@ In the table below, the top 10 most movie-producing countries and frequently rep
 
 ...most movies have a runtime of 100 minutes? Movie runtime has a mean of 94 and a median of 93 minutes, and 75% of movies have a runtime below 106 minutes. It is interesting to see that there are two peaks of runtime around 15 and 95 minutes.
 
-For better visualisation, 45 films were discarded to do the runtime histogram (those with runtime > 500 minutes). These outliers made the histogram difficult to read even on a log-log scale. They correspond to 0.07% of the movies in the dataset.
+For better visualisation, 45 movies were discarded to do the runtime histogram (those with runtime > 500 minutes). These outliers made the histogram difficult to read even on a log-log scale. They correspond to 0.07% of the movies in the dataset.
 
 The movie boxoffice histogram has an x-axis on the log scale, given the wide range of values of boxoffice revenue, with a maximum of 2.78 billion dollars for "Avatar". Most revenues are concentrated around 5 million dollars.
 
@@ -70,7 +70,7 @@ For the movie release dates, this is clearly heavy-tail distributed, with an exp
 
 ## What are typical stereotypes regarding male and female characters in movies?
 
-In their studies of "Learning Latent Personas of Film Characters", (Bamman et al., 2013) used a test set of 501 individual characters that are assigned to 72 character types. These character types are user-submitted examples of common tropes found, among other media, in television, film, and fiction, coming from the website TV Tropes (http://tvtropes.org). \
+In their studies of "Learning Latent Personas of Film Characters", (Bamman et al., 2013) used a test set of 501 individual characters that are assigned to 72 character types. These character types are user-submitted examples of common tropes found, among other media, in television, movies, and fiction, coming from the website TV Tropes (http://tvtropes.org). \
 The following table shows the 10 most common TV tropes and the number of movies in which those tropes appear.
 
 | tv trope                        | # of movies|
@@ -92,4 +92,4 @@ So, in other words, we have:
 
 which pretty much represent the classic clichés about men and women.
 
-But is it really as simple as that? This extremely stereotypical portrayal of male and female characters in the film industry motivates us to examine the characters of the different genders in our collection of over 42000 films. Are these stereotypes just clichés, or is there really something behind them? How has the representation of male and female characters changed over time? In "Part 2 - Qualitative Analysis", we explore these questions and find answers!
+But is it really as simple as that? This extremely stereotypical portrayal of male and female characters in the movie industry motivates us to examine the characters of the different genders in our collection of over 42000 movies. Are these stereotypes just clichés, or is there really something behind them? How has the representation of male and female characters changed over time? In "Part 2 - Qualitative Analysis", we explore these questions and find answers!
