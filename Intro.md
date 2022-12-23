@@ -1,4 +1,4 @@
-# Why do we care ?
+# Why do we care?
 
 Gender equality is an extremely topical issue in today's world. Great efforts are being made to put women on an equal footing with men. However, there is still a lot to be done in many areas. But what is the situation in the film industry?
 
@@ -16,12 +16,12 @@ Through this project, gender inequalities will be assessed in a quantitative and
 # General overview of the data
 In order to have a better feel for the data we are using, let's explore it by visualizing what we were given.
 
-## Where does the data come from ? 
-The data from which our analysis will be based consists of 42'306 movie plot summaries extracted from Wikipedia, with release date between 1880 and 2016. In addition to that, some movie metadata was also extracted from Freebase such as country, language, genre, characters, information about the actors/actresses playing the characters, movie runtime and release date.
+## Where does the data come from? 
+The data from which our analysis is be based consists of 42'306 movie plot summaries extracted from Wikipedia, with release dates between 1880 and 2016. In addition to that, some movie metadata was also extracted from Freebase such as country, language, genre, characters, information about the actors/actresses playing the characters, movie runtime and release date.
 
-## Who produces the movies and what are the most recurrent genres ?
+## Who produces the movies and what are the most recurrent genres?
 
-In the table below, the top 10 most producing countries and frequently represented genres are displayed. In all of the movie dataset, almost 50% of all films have been produced in the USA or India (out of 147 countries). The genres are more equally distributed. 
+In the table below, the top 10 most movie-producing countries and frequently represented genres are displayed. In all of the movie datasets, almost 50% of all films have been produced in the USA or India (out of 147 countries). The genres are more equally distributed. 
 
 
   |       **Countries**      | **Total number of movies** | **Ratio [%]** | **Cumulative sum [%]** |
@@ -54,11 +54,13 @@ In the table below, the top 10 most producing countries and frequently represent
   
 
 
-## When where the movies released ? How much money did they generate ? How long are they?
+## When were the movies released? How much money did they generate? How long are they?
 
 <img src="https://user-images.githubusercontent.com/100930184/209135056-d01d29b5-1cb8-40ab-bf99-d5d9492dca43.png" width="700" />
 
-As it can be seen on the left hand-side histogram, most movies have a runtime of 100 minutes. Movie runtime has a mean of 94 and median of 93 minutes, 75% of movies have a runtime below 106 minutes. It is interesting to see that there are two peaks of runtime around 15 and 95 minutes.
+### Did you know that?
+
+...most movies have a runtime of 100 minutes? Movie runtime has a mean of 94 and a median of 93 minutes, and 75% of movies have a runtime below 106 minutes. It is interesting to see that there are two peaks of runtime around 15 and 95 minutes.
 
 For better visualisation, 45 films were discarded to do the runtime histogram (those with runtime > 500 minutes). These outliers made the histogram difficult to read even in log-log scale. They correspond to 0.07% of the movies in the dataset.
 
