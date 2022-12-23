@@ -41,11 +41,11 @@ Correlation between genders and time periods are given in the following matrix:
 
 ![corr_periods_gender](https://user-images.githubusercontent.com/114232327/209010234-a1d60ec9-0254-4696-90c7-042561da8cee.png)
 
-We see a lower correlation between the genders (darker squares on the top right and bottom left). Very high correlation exists among the three periods of the same gender (green squares). We observe for both genders that P2 is more strongly correlated with P1 and P3 than the correlation between P1 and P3. In fact, the correlation coefficient for P2 and P3 is highest within the same sex.
+We see a lower correlation between the genders (darker squares on the top right and bottom left). A very high correlation exists among the three periods of the same gender (green squares). We observe for both genders that P2 is more strongly correlated with P1 and P3 than the correlation between P1 and P3. In fact, the correlation coefficient for P2 and P3 is highest within the same sex.
 
 
 ### Principle component analysis (PCA)
-A PCA allows us to represent the high number of features (Empath-categories) in some principle components (PCs). Therefore, we hope to show the differences in gender and in the three time periods on one single 2D graph! The two PCs with their respective explained variance ratio are depicted in the following figure. 
+A PCA allows us to represent the high number of features (Empath-categories) in some principal components (PCs). Therefore, we hope to show the differences in gender and in the three time periods on one single 2D graph! The two PCs with their respective explained variance ratio are depicted in the following figure. 
 
 ![PCA](https://user-images.githubusercontent.com/114232327/209010620-b254b5d5-e00b-45dd-97d9-4e61945340aa.png)
 
